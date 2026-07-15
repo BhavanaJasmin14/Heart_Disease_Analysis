@@ -1,1 +1,1 @@
-# Heart_Disease_Analysis
+I have done all of my work by my own my team members are inactive including team leader. So i submitted via google form and i uploaded everythimg in this github repo only including video recording. Due to size limit i have uploaded very small video. 
