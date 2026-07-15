@@ -1,0 +1,1001 @@
+patient_id,age,sex,chest_pain_type,resting_bp,cholesterol,fasting_blood_sugar_high,resting_ecg,max_heart_rate,exercise_angina,st_depression,st_slope,num_major_vessels,thalassemia,smoking,alcohol_consumption,physical_activity,bmi,diabetic,stroke_history,general_health,race,region,heart_disease
+1,67,Female,Non-anginal Pain,94,515,No,LV Hypertrophy,177,No,0.8,Upsloping,2,Normal,No,Yes,Moderate,29.5,No,No,Poor,Asian,South,0
+2,57,Female,Asymptomatic,165,419,No,ST-T Abnormality,171,No,5.2,Downsloping,1,Normal,Yes,Yes,Low,26.8,Yes,No,Poor,Other,North,1
+3,43,Female,Atypical Angina,180,187,No,ST-T Abnormality,118,Yes,2.2,Upsloping,1,Reversible Defect,No,No,Moderate,25.7,No,No,Excellent,Hispanic,West,0
+4,71,Male,Typical Angina,156,211,No,Normal,139,No,4.1,Flat,0,Fixed Defect,Yes,No,Moderate,22.1,No,No,Excellent,Other,South,1
+5,36,Female,Non-anginal Pain,160,335,No,LV Hypertrophy,81,No,2.9,Flat,0,Fixed Defect,Yes,No,High,28.5,Yes,No,Fair,Other,South,1
+6,49,Male,Typical Angina,97,203,No,Normal,201,No,1.2,Upsloping,1,Fixed Defect,No,No,Low,31.7,No,No,Good,Other,East,0
+7,67,Female,Non-anginal Pain,151,327,No,Normal,192,Yes,3.7,Flat,3,Normal,Yes,No,Moderate,25.1,No,No,Good,Black,North,0
+8,47,Male,Atypical Angina,118,427,No,LV Hypertrophy,139,No,0.4,Downsloping,0,Reversible Defect,Yes,No,Moderate,22.6,Yes,No,Good,Other,East,1
+9,51,Female,Non-anginal Pain,140,522,Yes,LV Hypertrophy,93,No,2.6,Flat,1,Fixed Defect,Yes,No,Moderate,26.7,No,No,Very Good,White,East,0
+10,39,Female,Atypical Angina,131,348,No,LV Hypertrophy,107,Yes,3.4,Upsloping,2,Reversible Defect,No,No,High,26.0,No,Yes,Fair,White,West,0
+11,39,Female,Non-anginal Pain,108,347,No,ST-T Abnormality,79,No,2.7,Downsloping,2,Fixed Defect,No,No,Low,21.1,No,No,Good,Asian,East,1
+12,52,Male,Atypical Angina,156,128,No,LV Hypertrophy,85,Yes,4.6,Flat,3,Normal,Yes,Yes,Low,24.0,Yes,No,Very Good,Asian,West,1
+13,64,Male,Atypical Angina,114,131,No,LV Hypertrophy,201,Yes,5.1,Downsloping,2,Reversible Defect,No,No,Moderate,33.2,No,No,Very Good,Other,East,0
+14,68,Female,Asymptomatic,192,218,No,LV Hypertrophy,163,No,4.8,Upsloping,2,Fixed Defect,Yes,No,Moderate,20.6,Yes,No,Poor,Other,South,1
+15,52,Male,Atypical Angina,150,133,No,Normal,87,No,0.2,Flat,1,Fixed Defect,No,No,Low,23.2,No,No,Very Good,Black,North,0
+16,31,Female,Asymptomatic,146,553,No,Normal,142,No,1.2,Downsloping,2,Fixed Defect,No,Yes,Moderate,22.2,Yes,No,Excellent,Other,North,0
+17,50,Female,Atypical Angina,139,360,No,ST-T Abnormality,191,Yes,3.3,Downsloping,2,Fixed Defect,No,No,Moderate,22.6,No,No,Very Good,Other,North,0
+18,30,Male,Typical Angina,107,233,No,Normal,81,No,5.8,Flat,2,Normal,No,Yes,High,24.2,Yes,No,Excellent,Other,South,0
+19,52,Female,Atypical Angina,193,286,No,ST-T Abnormality,142,Yes,5.2,Downsloping,2,Fixed Defect,No,No,Low,27.8,Yes,No,Excellent,Hispanic,South,1
+20,72,Male,Typical Angina,169,334,No,Normal,176,Yes,5.2,Downsloping,1,Fixed Defect,No,No,High,31.2,Yes,No,Poor,Hispanic,East,1
+21,58,Female,Typical Angina,110,365,No,LV Hypertrophy,195,Yes,1.9,Upsloping,2,Normal,No,No,Low,26.8,No,No,Poor,Black,East,1
+22,66,Female,Atypical Angina,132,456,No,Normal,105,No,2.7,Upsloping,3,Fixed Defect,No,No,Low,23.3,No,No,Very Good,Black,East,0
+23,30,Male,Typical Angina,102,458,No,ST-T Abnormality,189,No,2.9,Upsloping,0,Reversible Defect,No,Yes,Low,32.2,Yes,No,Poor,White,East,0
+24,49,Male,Asymptomatic,192,175,No,Normal,84,No,1.0,Upsloping,3,Reversible Defect,No,Yes,High,17.7,No,No,Poor,Black,North,0
+25,61,Female,Non-anginal Pain,170,136,Yes,LV Hypertrophy,84,No,0.2,Upsloping,0,Fixed Defect,Yes,No,Low,28.7,No,No,Good,White,East,0
+26,40,Male,Atypical Angina,172,476,No,ST-T Abnormality,80,Yes,5.9,Upsloping,3,Normal,Yes,Yes,Moderate,21.9,No,No,Very Good,Other,South,0
+27,50,Male,Typical Angina,175,281,No,LV Hypertrophy,108,No,1.5,Flat,0,Normal,No,Yes,Moderate,25.8,No,No,Very Good,Black,South,0
+28,72,Male,Atypical Angina,190,195,No,LV Hypertrophy,178,No,1.5,Upsloping,0,Normal,No,No,High,28.3,No,No,Very Good,Black,South,0
+29,53,Male,Asymptomatic,99,294,No,ST-T Abnormality,189,No,0.5,Downsloping,0,Fixed Defect,No,No,High,19.6,No,No,Poor,Black,West,0
+30,77,Male,Atypical Angina,184,397,No,LV Hypertrophy,104,Yes,5.8,Flat,0,Fixed Defect,Yes,No,Moderate,26.6,No,No,Poor,White,West,1
+31,55,Male,Atypical Angina,116,193,No,LV Hypertrophy,80,No,3.6,Downsloping,1,Reversible Defect,Yes,Yes,High,26.9,No,No,Excellent,White,West,1
+32,70,Male,Typical Angina,152,480,No,Normal,192,No,4.1,Upsloping,3,Normal,No,No,Moderate,31.8,No,No,Fair,Asian,East,1
+33,56,Female,Asymptomatic,184,377,No,LV Hypertrophy,185,No,5.7,Upsloping,0,Fixed Defect,No,No,High,36.9,No,No,Fair,White,North,0
+34,44,Male,Non-anginal Pain,191,173,No,LV Hypertrophy,71,No,2.1,Downsloping,3,Fixed Defect,Yes,No,Low,19.8,Yes,No,Fair,White,North,1
+35,43,Male,Non-anginal Pain,139,309,No,LV Hypertrophy,82,Yes,3.9,Downsloping,2,Fixed Defect,No,Yes,Low,31.7,No,No,Good,Hispanic,East,1
+36,75,Male,Typical Angina,131,445,No,LV Hypertrophy,173,No,0.2,Downsloping,0,Normal,No,No,Moderate,25.8,Yes,No,Poor,Black,East,0
+37,72,Male,Atypical Angina,107,312,No,ST-T Abnormality,74,Yes,1.2,Flat,3,Normal,No,No,Moderate,22.8,No,No,Excellent,White,West,0
+38,31,Male,Typical Angina,193,215,No,Normal,168,No,5.2,Upsloping,1,Reversible Defect,No,No,Moderate,27.5,Yes,No,Excellent,Black,South,0
+39,65,Male,Typical Angina,165,457,No,LV Hypertrophy,176,No,4.8,Downsloping,3,Normal,No,No,Moderate,20.8,No,No,Fair,Black,South,1
+40,35,Female,Typical Angina,155,264,No,LV Hypertrophy,155,Yes,2.2,Upsloping,0,Fixed Defect,No,Yes,Low,21.0,No,No,Good,Hispanic,West,0
+41,49,Male,Atypical Angina,128,482,No,ST-T Abnormality,191,No,2.3,Downsloping,2,Reversible Defect,No,Yes,Moderate,19.1,No,No,Good,Black,West,0
+42,37,Female,Asymptomatic,112,214,No,LV Hypertrophy,152,No,3.3,Upsloping,3,Normal,Yes,No,Low,28.2,No,No,Fair,White,North,0
+43,67,Female,Typical Angina,123,399,No,ST-T Abnormality,89,Yes,0.0,Flat,2,Normal,No,No,High,27.3,No,Yes,Fair,Black,West,1
+44,46,Male,Atypical Angina,171,144,No,Normal,200,No,1.5,Upsloping,1,Normal,Yes,No,High,22.7,No,No,Poor,Asian,South,1
+45,32,Female,Asymptomatic,177,436,No,Normal,82,Yes,1.3,Downsloping,3,Normal,Yes,No,High,32.1,No,No,Good,Asian,South,1
+46,53,Female,Typical Angina,118,483,No,LV Hypertrophy,151,No,1.6,Upsloping,3,Fixed Defect,No,No,Low,23.3,Yes,Yes,Excellent,Hispanic,East,1
+47,42,Male,Non-anginal Pain,133,499,No,LV Hypertrophy,144,No,5.0,Flat,1,Normal,No,No,Moderate,31.1,No,Yes,Fair,White,North,0
+48,37,Male,Asymptomatic,181,279,No,LV Hypertrophy,168,No,1.7,Flat,1,Fixed Defect,No,Yes,High,26.5,No,No,Poor,Hispanic,East,0
+49,54,Female,Typical Angina,107,515,Yes,ST-T Abnormality,76,No,1.2,Upsloping,1,Fixed Defect,No,No,High,23.3,No,Yes,Excellent,Asian,North,0
+50,30,Female,Asymptomatic,119,385,No,LV Hypertrophy,195,No,3.1,Downsloping,0,Fixed Defect,No,No,Moderate,25.5,Yes,No,Good,White,East,0
+51,48,Male,Asymptomatic,195,233,No,LV Hypertrophy,121,No,5.4,Flat,0,Reversible Defect,No,Yes,Moderate,21.0,No,No,Fair,Black,North,0
+52,56,Female,Asymptomatic,180,496,No,Normal,81,Yes,1.5,Flat,3,Fixed Defect,No,No,Moderate,26.9,Yes,No,Fair,White,West,1
+53,75,Female,Asymptomatic,115,410,No,LV Hypertrophy,197,No,0.5,Upsloping,3,Normal,No,No,Moderate,26.1,No,No,Poor,Other,South,0
+54,35,Female,Asymptomatic,141,184,No,Normal,143,No,2.2,Flat,3,Reversible Defect,Yes,No,Low,28.1,No,No,Poor,White,West,0
+55,72,Female,Asymptomatic,176,250,No,LV Hypertrophy,72,Yes,4.6,Flat,2,Normal,No,No,Moderate,29.5,No,No,Good,Black,North,0
+56,36,Female,Typical Angina,144,479,No,Normal,78,No,3.4,Downsloping,1,Fixed Defect,No,No,High,26.5,No,No,Fair,Other,North,0
+57,75,Male,Non-anginal Pain,96,398,No,LV Hypertrophy,194,No,5.1,Downsloping,3,Normal,No,Yes,Moderate,20.1,No,No,Poor,Hispanic,East,0
+58,63,Male,Atypical Angina,135,232,No,Normal,123,No,5.9,Downsloping,1,Reversible Defect,No,No,Moderate,29.7,No,No,Fair,White,North,0
+59,42,Male,Asymptomatic,112,424,Yes,ST-T Abnormality,80,Yes,4.9,Upsloping,0,Reversible Defect,No,No,Moderate,26.1,No,No,Good,Hispanic,West,0
+60,45,Female,Atypical Angina,166,370,No,Normal,182,Yes,3.7,Flat,1,Normal,No,No,High,18.4,No,No,Fair,White,North,0
+61,64,Male,Typical Angina,121,461,No,Normal,78,Yes,3.1,Upsloping,2,Normal,No,Yes,Moderate,27.2,No,No,Excellent,Asian,North,1
+62,68,Male,Asymptomatic,177,543,No,Normal,106,No,0.2,Flat,2,Normal,No,Yes,Moderate,27.5,No,No,Fair,Asian,East,0
+63,32,Female,Non-anginal Pain,138,372,No,LV Hypertrophy,176,Yes,6.1,Flat,1,Reversible Defect,Yes,No,Moderate,24.6,No,No,Very Good,Black,North,0
+64,30,Male,Atypical Angina,164,133,No,LV Hypertrophy,84,No,2.4,Flat,2,Fixed Defect,Yes,No,Moderate,25.2,No,No,Very Good,Asian,East,0
+65,34,Female,Asymptomatic,171,266,No,LV Hypertrophy,156,Yes,0.9,Downsloping,2,Normal,No,No,Moderate,23.6,No,No,Good,Other,South,0
+66,70,Female,Typical Angina,156,487,No,ST-T Abnormality,120,No,4.1,Upsloping,0,Fixed Defect,Yes,No,Moderate,27.7,Yes,No,Good,Other,East,1
+67,32,Male,Non-anginal Pain,166,133,No,ST-T Abnormality,90,No,1.8,Upsloping,3,Reversible Defect,No,No,Moderate,26.6,No,No,Good,White,North,0
+68,57,Male,Atypical Angina,112,477,Yes,Normal,157,No,3.6,Flat,2,Normal,No,No,Moderate,22.4,Yes,No,Excellent,Hispanic,South,1
+69,46,Male,Atypical Angina,140,219,Yes,ST-T Abnormality,199,Yes,3.6,Upsloping,3,Normal,Yes,No,Low,32.5,Yes,No,Excellent,Other,North,1
+70,54,Male,Asymptomatic,107,446,No,Normal,108,No,2.8,Downsloping,1,Reversible Defect,Yes,No,Low,23.3,No,No,Fair,White,East,0
+71,72,Male,Non-anginal Pain,131,552,Yes,Normal,114,Yes,5.2,Upsloping,1,Normal,No,Yes,Low,15.2,No,No,Poor,Hispanic,West,1
+72,62,Male,Non-anginal Pain,146,164,Yes,Normal,156,No,1.6,Flat,2,Fixed Defect,No,No,High,24.1,No,No,Very Good,Asian,South,1
+73,38,Male,Non-anginal Pain,154,206,No,ST-T Abnormality,114,No,2.8,Downsloping,1,Reversible Defect,No,No,Low,30.1,No,No,Very Good,White,West,0
+74,64,Male,Non-anginal Pain,129,312,No,LV Hypertrophy,144,Yes,3.3,Downsloping,0,Reversible Defect,No,No,Low,25.2,No,No,Very Good,Hispanic,West,1
+75,42,Male,Typical Angina,133,209,No,ST-T Abnormality,189,No,4.1,Flat,2,Normal,No,Yes,Low,19.5,Yes,Yes,Fair,Black,South,0
+76,59,Male,Non-anginal Pain,174,213,Yes,Normal,192,No,4.9,Upsloping,2,Reversible Defect,No,No,Moderate,21.9,No,No,Fair,Black,West,0
+77,76,Male,Atypical Angina,123,367,No,Normal,121,Yes,2.4,Flat,2,Normal,No,No,Low,21.7,No,No,Good,Other,West,1
+78,43,Male,Atypical Angina,102,467,Yes,ST-T Abnormality,108,No,4.0,Upsloping,1,Normal,No,No,Moderate,23.7,Yes,No,Poor,Hispanic,West,0
+79,36,Female,Typical Angina,157,218,No,Normal,121,Yes,0.9,Upsloping,1,Reversible Defect,Yes,Yes,Low,25.0,No,No,Good,Black,West,0
+80,42,Female,Atypical Angina,126,211,No,Normal,80,No,5.8,Downsloping,2,Normal,No,No,High,28.0,No,No,Fair,Other,South,0
+81,51,Male,Atypical Angina,145,169,No,ST-T Abnormality,190,No,2.4,Flat,3,Fixed Defect,No,No,High,26.5,No,No,Excellent,White,North,0
+82,68,Female,Non-anginal Pain,182,262,No,ST-T Abnormality,140,Yes,4.5,Downsloping,1,Fixed Defect,Yes,No,High,26.7,No,No,Good,White,West,1
+83,49,Male,Atypical Angina,107,546,Yes,ST-T Abnormality,155,No,0.1,Flat,1,Normal,Yes,Yes,Moderate,33.1,No,No,Fair,Hispanic,South,0
+84,44,Female,Typical Angina,168,199,No,Normal,127,No,1.3,Flat,2,Fixed Defect,No,No,Moderate,29.4,No,No,Fair,Hispanic,South,0
+85,73,Male,Non-anginal Pain,146,161,No,Normal,196,No,3.0,Downsloping,3,Normal,Yes,No,Moderate,29.1,No,Yes,Excellent,Hispanic,South,1
+86,46,Female,Asymptomatic,192,226,No,LV Hypertrophy,109,No,5.4,Flat,2,Fixed Defect,Yes,Yes,Low,18.7,No,No,Excellent,Hispanic,South,0
+87,75,Female,Non-anginal Pain,198,281,Yes,LV Hypertrophy,103,No,3.3,Flat,1,Reversible Defect,No,No,Moderate,23.0,No,No,Excellent,Black,East,0
+88,52,Female,Typical Angina,152,551,No,ST-T Abnormality,88,No,5.8,Upsloping,2,Normal,No,No,Low,19.6,No,No,Poor,Black,North,1
+89,54,Female,Non-anginal Pain,171,380,No,LV Hypertrophy,127,No,3.0,Flat,2,Normal,No,No,Moderate,22.9,Yes,Yes,Fair,Other,North,1
+90,53,Male,Non-anginal Pain,187,296,No,Normal,166,No,3.0,Flat,2,Normal,No,No,Low,29.2,Yes,No,Excellent,Black,West,1
+91,73,Male,Typical Angina,134,341,No,LV Hypertrophy,118,No,0.7,Downsloping,3,Normal,No,No,Moderate,24.4,No,No,Poor,White,South,1
+92,69,Female,Non-anginal Pain,161,295,No,Normal,112,No,5.0,Downsloping,2,Normal,No,No,Moderate,30.3,No,No,Very Good,Other,East,0
+93,57,Male,Typical Angina,161,377,No,ST-T Abnormality,97,No,1.5,Flat,1,Normal,Yes,Yes,Moderate,28.8,No,No,Very Good,Black,South,0
+94,43,Female,Typical Angina,185,485,No,ST-T Abnormality,144,No,5.6,Upsloping,2,Reversible Defect,No,No,High,26.2,Yes,No,Very Good,Hispanic,West,0
+95,73,Male,Asymptomatic,101,447,No,Normal,180,No,5.6,Upsloping,3,Reversible Defect,No,No,Moderate,30.4,No,No,Fair,Black,North,0
+96,29,Male,Atypical Angina,95,180,No,LV Hypertrophy,102,No,5.8,Downsloping,0,Fixed Defect,No,No,Moderate,31.5,No,No,Poor,Asian,West,0
+97,53,Male,Atypical Angina,198,557,No,ST-T Abnormality,96,No,3.2,Flat,3,Normal,No,No,Moderate,27.8,No,No,Poor,Other,West,0
+98,35,Male,Non-anginal Pain,179,216,No,ST-T Abnormality,95,No,4.2,Flat,2,Fixed Defect,No,No,Low,26.9,No,No,Very Good,Black,West,0
+99,37,Male,Non-anginal Pain,134,403,No,LV Hypertrophy,145,No,4.8,Upsloping,0,Fixed Defect,No,No,Moderate,28.5,No,Yes,Good,Black,West,0
+100,52,Male,Asymptomatic,148,226,No,LV Hypertrophy,93,Yes,0.8,Upsloping,2,Reversible Defect,No,No,High,20.4,Yes,Yes,Very Good,White,West,1
+101,29,Male,Asymptomatic,109,280,No,Normal,127,No,3.7,Upsloping,3,Fixed Defect,No,Yes,High,25.5,No,Yes,Fair,Hispanic,West,1
+102,72,Male,Asymptomatic,186,502,No,LV Hypertrophy,196,No,0.2,Downsloping,0,Reversible Defect,No,No,Moderate,25.9,No,No,Very Good,Hispanic,West,0
+103,36,Male,Typical Angina,155,474,No,LV Hypertrophy,157,No,3.1,Flat,0,Fixed Defect,No,No,Low,24.5,No,No,Very Good,White,North,0
+104,52,Female,Asymptomatic,141,489,No,LV Hypertrophy,101,Yes,1.0,Downsloping,2,Normal,No,Yes,Low,22.8,No,No,Poor,White,North,0
+105,39,Male,Asymptomatic,123,266,No,Normal,134,Yes,1.1,Flat,2,Fixed Defect,No,Yes,Moderate,30.0,No,No,Very Good,Asian,South,0
+106,45,Male,Non-anginal Pain,105,298,Yes,Normal,103,No,2.3,Downsloping,3,Reversible Defect,Yes,No,High,26.7,No,No,Excellent,Other,South,1
+107,36,Male,Asymptomatic,128,135,No,ST-T Abnormality,72,Yes,2.7,Flat,2,Reversible Defect,Yes,No,Moderate,27.0,No,No,Excellent,Hispanic,East,0
+108,63,Female,Typical Angina,104,353,No,Normal,88,Yes,3.9,Upsloping,0,Reversible Defect,No,No,High,31.7,No,No,Good,White,East,0
+109,63,Male,Typical Angina,157,390,Yes,ST-T Abnormality,154,No,0.5,Upsloping,1,Fixed Defect,No,No,Moderate,25.2,Yes,No,Fair,White,North,1
+110,61,Female,Non-anginal Pain,143,563,No,LV Hypertrophy,105,Yes,3.1,Upsloping,1,Fixed Defect,Yes,No,Low,24.4,No,No,Fair,Other,North,1
+111,33,Female,Asymptomatic,178,373,No,ST-T Abnormality,184,Yes,1.1,Downsloping,3,Reversible Defect,Yes,No,Low,31.4,Yes,No,Poor,White,East,1
+112,70,Male,Asymptomatic,114,372,Yes,ST-T Abnormality,180,Yes,3.6,Upsloping,2,Normal,No,Yes,Low,20.0,No,No,Fair,Asian,North,1
+113,67,Male,Typical Angina,162,280,No,LV Hypertrophy,158,No,4.0,Flat,3,Normal,No,Yes,Moderate,26.2,No,No,Good,Other,East,1
+114,69,Male,Asymptomatic,141,159,No,ST-T Abnormality,142,No,3.5,Downsloping,1,Fixed Defect,No,No,Low,23.0,No,No,Excellent,Asian,South,0
+115,56,Male,Asymptomatic,113,254,No,Normal,195,No,4.6,Flat,1,Fixed Defect,No,No,Moderate,27.2,Yes,No,Poor,Black,North,0
+116,35,Male,Asymptomatic,194,285,No,Normal,100,No,2.1,Downsloping,2,Reversible Defect,No,No,Moderate,28.3,No,No,Excellent,Hispanic,North,1
+117,37,Female,Atypical Angina,160,214,No,Normal,123,No,4.7,Flat,0,Fixed Defect,Yes,No,Low,28.5,No,No,Good,White,East,0
+118,36,Male,Non-anginal Pain,137,218,Yes,Normal,157,No,2.7,Flat,2,Fixed Defect,No,Yes,Low,30.1,No,No,Poor,Other,West,0
+119,40,Male,Atypical Angina,126,452,No,ST-T Abnormality,83,Yes,3.0,Downsloping,1,Reversible Defect,No,No,Low,25.0,No,No,Very Good,Asian,West,1
+120,62,Male,Non-anginal Pain,166,366,No,ST-T Abnormality,110,Yes,4.0,Downsloping,0,Reversible Defect,Yes,No,Moderate,25.2,No,No,Fair,Hispanic,South,1
+121,61,Female,Typical Angina,154,448,No,LV Hypertrophy,159,No,0.1,Upsloping,3,Fixed Defect,No,Yes,Moderate,28.1,No,No,Good,Hispanic,North,0
+122,76,Male,Asymptomatic,102,529,Yes,ST-T Abnormality,138,No,4.1,Upsloping,1,Normal,No,No,Low,29.6,No,No,Poor,White,North,0
+123,51,Male,Non-anginal Pain,161,242,No,ST-T Abnormality,112,Yes,3.8,Flat,3,Fixed Defect,No,No,High,20.8,No,No,Excellent,Hispanic,East,1
+124,52,Female,Atypical Angina,128,219,Yes,ST-T Abnormality,164,No,1.9,Flat,0,Normal,No,Yes,Moderate,27.3,No,No,Poor,White,West,0
+125,65,Female,Asymptomatic,174,288,No,LV Hypertrophy,89,Yes,0.5,Flat,3,Normal,No,No,Moderate,24.4,No,No,Very Good,Black,West,0
+126,63,Male,Typical Angina,191,224,No,Normal,93,No,0.6,Downsloping,1,Normal,No,Yes,Moderate,26.3,No,No,Good,White,South,0
+127,72,Male,Non-anginal Pain,181,238,No,ST-T Abnormality,124,No,5.7,Downsloping,2,Reversible Defect,No,No,High,24.6,No,Yes,Poor,Asian,West,1
+128,68,Female,Non-anginal Pain,189,484,No,LV Hypertrophy,135,No,4.3,Upsloping,3,Reversible Defect,No,No,Moderate,23.1,No,No,Good,Hispanic,West,0
+129,50,Male,Non-anginal Pain,158,216,No,LV Hypertrophy,94,No,0.8,Flat,1,Reversible Defect,No,No,Moderate,21.9,No,No,Good,Hispanic,West,0
+130,55,Male,Asymptomatic,101,471,No,LV Hypertrophy,104,Yes,2.2,Upsloping,1,Fixed Defect,No,No,Low,25.4,No,No,Excellent,Hispanic,East,1
+131,63,Male,Atypical Angina,138,331,No,Normal,123,No,3.7,Downsloping,0,Reversible Defect,No,Yes,Moderate,27.4,No,No,Fair,White,West,0
+132,29,Male,Atypical Angina,180,142,No,ST-T Abnormality,88,Yes,5.2,Downsloping,1,Reversible Defect,No,No,Moderate,23.6,No,No,Very Good,Other,South,0
+133,63,Female,Non-anginal Pain,140,399,No,LV Hypertrophy,127,No,0.3,Downsloping,2,Fixed Defect,Yes,No,Moderate,30.8,No,No,Poor,White,West,1
+134,65,Female,Typical Angina,133,298,No,Normal,182,Yes,1.5,Upsloping,2,Fixed Defect,No,No,High,35.8,No,No,Fair,Asian,South,1
+135,75,Male,Typical Angina,169,241,No,LV Hypertrophy,75,No,5.5,Downsloping,3,Normal,No,Yes,High,27.7,No,No,Excellent,White,East,1
+136,42,Male,Atypical Angina,147,474,Yes,LV Hypertrophy,83,No,0.1,Flat,3,Fixed Defect,Yes,Yes,Low,25.8,Yes,No,Fair,Hispanic,East,1
+137,31,Male,Typical Angina,169,306,No,LV Hypertrophy,153,No,1.2,Upsloping,3,Fixed Defect,Yes,No,Low,22.4,No,No,Good,Black,South,1
+138,29,Male,Atypical Angina,139,216,Yes,LV Hypertrophy,99,Yes,5.9,Downsloping,3,Reversible Defect,No,No,Low,27.5,No,No,Good,Asian,East,0
+139,33,Female,Non-anginal Pain,140,207,No,LV Hypertrophy,73,No,3.8,Upsloping,2,Normal,Yes,No,Moderate,31.9,No,No,Very Good,Black,North,0
+140,54,Male,Atypical Angina,108,449,No,Normal,160,Yes,1.6,Upsloping,0,Normal,Yes,No,Low,33.8,No,No,Poor,Asian,North,1
+141,42,Male,Atypical Angina,198,239,Yes,ST-T Abnormality,174,Yes,0.4,Downsloping,3,Fixed Defect,No,No,Low,31.6,No,No,Poor,Asian,North,1
+142,67,Male,Non-anginal Pain,112,382,No,ST-T Abnormality,193,No,0.2,Downsloping,0,Reversible Defect,Yes,No,Low,29.4,No,No,Excellent,Hispanic,North,1
+143,55,Male,Typical Angina,119,183,No,ST-T Abnormality,146,Yes,1.5,Upsloping,1,Reversible Defect,No,No,Low,27.6,No,No,Very Good,White,North,0
+144,37,Male,Atypical Angina,145,279,No,ST-T Abnormality,200,Yes,5.5,Upsloping,1,Reversible Defect,No,No,Low,21.8,Yes,No,Poor,Hispanic,East,1
+145,43,Female,Atypical Angina,186,490,No,Normal,178,No,2.6,Downsloping,3,Reversible Defect,No,No,Low,25.6,No,Yes,Good,Hispanic,South,0
+146,43,Male,Non-anginal Pain,115,529,No,Normal,152,No,4.5,Flat,1,Fixed Defect,No,No,Moderate,25.1,No,No,Very Good,Hispanic,East,0
+147,54,Female,Typical Angina,197,241,No,Normal,147,No,5.7,Upsloping,0,Reversible Defect,No,No,Low,25.6,Yes,No,Fair,Black,West,1
+148,70,Male,Atypical Angina,114,468,No,LV Hypertrophy,72,No,2.5,Upsloping,0,Normal,No,Yes,Low,23.1,No,No,Very Good,Asian,North,1
+149,41,Male,Non-anginal Pain,144,391,No,LV Hypertrophy,197,No,1.2,Flat,1,Normal,No,Yes,High,29.0,No,No,Very Good,Other,North,0
+150,60,Male,Atypical Angina,131,440,No,LV Hypertrophy,96,Yes,3.2,Downsloping,3,Fixed Defect,No,No,High,24.9,No,No,Poor,White,East,1
+151,67,Female,Asymptomatic,113,328,No,ST-T Abnormality,158,No,5.6,Downsloping,0,Reversible Defect,No,No,Low,24.6,No,No,Excellent,Hispanic,West,1
+152,77,Female,Non-anginal Pain,122,166,No,LV Hypertrophy,86,No,5.0,Flat,0,Reversible Defect,No,Yes,Low,23.1,No,No,Excellent,Asian,East,0
+153,60,Male,Typical Angina,144,230,No,ST-T Abnormality,143,No,0.4,Downsloping,2,Reversible Defect,No,No,Moderate,26.9,No,No,Poor,White,South,0
+154,32,Male,Typical Angina,97,514,Yes,LV Hypertrophy,102,Yes,4.3,Downsloping,3,Reversible Defect,No,No,Low,32.0,No,No,Poor,Other,North,1
+155,58,Female,Typical Angina,148,503,No,ST-T Abnormality,85,No,3.5,Upsloping,2,Fixed Defect,No,No,Low,26.0,No,No,Poor,Other,East,0
+156,65,Male,Typical Angina,164,318,No,LV Hypertrophy,75,Yes,5.6,Upsloping,1,Reversible Defect,No,No,Low,27.1,No,No,Excellent,Hispanic,South,1
+157,51,Male,Atypical Angina,185,526,No,LV Hypertrophy,144,Yes,0.8,Upsloping,1,Fixed Defect,No,No,Low,33.7,No,No,Poor,Other,North,1
+158,67,Female,Atypical Angina,121,403,No,Normal,122,Yes,3.3,Flat,2,Reversible Defect,No,No,Moderate,30.8,No,No,Fair,Other,North,1
+159,73,Male,Typical Angina,97,479,No,LV Hypertrophy,147,No,5.5,Downsloping,3,Reversible Defect,Yes,No,High,28.4,Yes,No,Fair,White,North,1
+160,43,Male,Typical Angina,115,362,No,LV Hypertrophy,180,No,2.5,Downsloping,0,Normal,No,No,Moderate,28.2,Yes,No,Good,White,West,0
+161,71,Male,Typical Angina,169,550,No,Normal,176,No,3.0,Upsloping,1,Fixed Defect,No,Yes,Moderate,23.6,No,No,Fair,Hispanic,East,0
+162,57,Male,Atypical Angina,138,346,Yes,ST-T Abnormality,197,No,0.4,Upsloping,3,Normal,No,No,Moderate,23.2,No,No,Very Good,Asian,North,0
+163,64,Male,Typical Angina,160,193,No,Normal,77,Yes,1.7,Flat,3,Fixed Defect,Yes,Yes,Moderate,26.6,No,No,Good,Hispanic,North,1
+164,41,Female,Typical Angina,179,322,No,Normal,110,Yes,2.0,Downsloping,1,Reversible Defect,No,No,Moderate,26.7,No,No,Fair,Black,South,1
+165,60,Male,Asymptomatic,159,381,No,ST-T Abnormality,169,Yes,5.9,Flat,1,Reversible Defect,No,Yes,Low,22.6,Yes,No,Very Good,Other,East,1
+166,35,Male,Asymptomatic,181,264,No,LV Hypertrophy,155,No,1.8,Downsloping,3,Fixed Defect,No,No,Moderate,28.8,No,Yes,Fair,Asian,South,0
+167,50,Male,Typical Angina,127,437,No,ST-T Abnormality,135,No,2.9,Flat,0,Normal,No,No,High,24.9,No,No,Very Good,White,East,0
+168,56,Male,Non-anginal Pain,184,560,No,LV Hypertrophy,81,No,4.2,Upsloping,2,Fixed Defect,No,Yes,Low,30.5,No,No,Poor,Black,North,1
+169,30,Female,Typical Angina,148,274,No,LV Hypertrophy,178,Yes,1.0,Flat,1,Fixed Defect,No,No,High,25.8,Yes,No,Very Good,Black,West,0
+170,70,Male,Asymptomatic,198,224,No,ST-T Abnormality,96,Yes,3.0,Flat,2,Reversible Defect,No,Yes,Moderate,25.4,No,No,Poor,Other,South,0
+171,73,Male,Non-anginal Pain,94,201,No,Normal,155,Yes,4.6,Upsloping,3,Normal,No,No,Moderate,22.3,No,No,Very Good,White,West,0
+172,34,Female,Non-anginal Pain,165,407,No,ST-T Abnormality,193,No,5.4,Downsloping,2,Fixed Defect,No,No,Low,22.7,No,No,Very Good,Asian,West,0
+173,56,Male,Typical Angina,180,496,No,LV Hypertrophy,138,No,3.9,Downsloping,0,Normal,No,No,Moderate,31.3,No,No,Fair,White,West,0
+174,56,Male,Asymptomatic,131,528,Yes,ST-T Abnormality,174,No,4.1,Upsloping,3,Normal,No,No,High,27.1,No,No,Very Good,Other,East,1
+175,72,Male,Asymptomatic,99,234,No,ST-T Abnormality,150,No,0.8,Flat,0,Fixed Defect,Yes,No,Moderate,27.6,No,No,Fair,Black,East,0
+176,72,Male,Non-anginal Pain,179,313,Yes,LV Hypertrophy,123,No,5.9,Flat,3,Normal,No,No,Low,32.4,No,No,Very Good,Other,West,1
+177,48,Male,Typical Angina,118,324,No,Normal,176,No,0.8,Flat,0,Reversible Defect,No,No,Low,20.7,No,No,Excellent,Hispanic,North,0
+178,58,Male,Atypical Angina,175,428,No,ST-T Abnormality,114,Yes,4.8,Downsloping,3,Reversible Defect,No,No,Moderate,28.7,No,No,Good,Black,North,1
+179,39,Female,Atypical Angina,110,452,No,LV Hypertrophy,160,No,1.6,Flat,0,Reversible Defect,No,No,Moderate,19.6,No,No,Fair,Other,West,0
+180,56,Male,Asymptomatic,154,279,No,LV Hypertrophy,171,No,5.8,Downsloping,3,Reversible Defect,No,No,Moderate,24.2,No,No,Fair,Asian,South,0
+181,53,Male,Atypical Angina,105,165,Yes,ST-T Abnormality,167,Yes,4.5,Flat,0,Normal,Yes,No,High,21.4,Yes,No,Poor,Asian,South,1
+182,67,Male,Asymptomatic,99,258,Yes,Normal,79,No,4.7,Upsloping,3,Reversible Defect,No,Yes,Moderate,29.4,Yes,No,Excellent,Asian,East,0
+183,61,Male,Asymptomatic,183,530,No,ST-T Abnormality,82,No,1.4,Upsloping,0,Fixed Defect,No,No,Moderate,18.4,No,No,Poor,Hispanic,South,0
+184,29,Female,Asymptomatic,120,257,No,Normal,139,No,2.7,Downsloping,1,Reversible Defect,No,No,Low,25.1,No,Yes,Excellent,White,North,1
+185,55,Male,Atypical Angina,101,404,No,Normal,98,No,3.8,Downsloping,2,Fixed Defect,Yes,No,Low,21.4,No,No,Excellent,Asian,West,1
+186,41,Male,Asymptomatic,176,487,No,Normal,126,No,4.8,Upsloping,3,Fixed Defect,No,Yes,Moderate,22.6,No,No,Very Good,Hispanic,South,0
+187,69,Female,Non-anginal Pain,199,209,Yes,Normal,169,No,0.6,Upsloping,0,Reversible Defect,No,No,High,23.2,No,No,Poor,Asian,West,0
+188,31,Male,Typical Angina,158,524,No,ST-T Abnormality,180,Yes,6.0,Flat,1,Reversible Defect,No,Yes,Moderate,31.3,No,No,Good,Hispanic,South,1
+189,67,Male,Typical Angina,150,367,No,LV Hypertrophy,147,Yes,5.5,Upsloping,3,Normal,No,No,Moderate,24.7,No,No,Excellent,Asian,East,1
+190,34,Male,Asymptomatic,186,241,No,LV Hypertrophy,173,Yes,1.7,Downsloping,3,Fixed Defect,No,No,Low,32.9,Yes,No,Excellent,White,North,1
+191,36,Male,Typical Angina,192,234,No,LV Hypertrophy,176,Yes,5.1,Upsloping,3,Reversible Defect,Yes,No,High,33.7,No,No,Fair,Other,East,0
+192,55,Female,Atypical Angina,133,346,No,LV Hypertrophy,179,No,3.2,Downsloping,2,Normal,No,No,High,34.5,No,No,Very Good,Asian,West,0
+193,37,Male,Atypical Angina,107,517,No,LV Hypertrophy,182,No,2.9,Downsloping,0,Reversible Defect,No,No,Moderate,25.8,Yes,No,Good,Other,North,0
+194,65,Male,Typical Angina,128,166,No,LV Hypertrophy,128,Yes,1.9,Flat,0,Reversible Defect,Yes,No,Low,26.8,Yes,No,Excellent,Asian,North,1
+195,61,Male,Atypical Angina,141,493,No,ST-T Abnormality,148,No,3.6,Flat,3,Reversible Defect,No,No,Moderate,27.5,No,No,Fair,White,East,0
+196,70,Female,Typical Angina,177,272,Yes,Normal,145,Yes,4.5,Flat,3,Fixed Defect,No,No,High,24.5,No,Yes,Poor,Other,South,1
+197,72,Male,Typical Angina,149,237,No,LV Hypertrophy,112,Yes,2.5,Flat,3,Reversible Defect,Yes,No,Moderate,27.7,No,No,Excellent,Hispanic,East,1
+198,52,Female,Typical Angina,142,228,No,ST-T Abnormality,138,Yes,3.9,Upsloping,1,Normal,No,No,Moderate,22.3,No,No,Fair,Asian,West,0
+199,43,Male,Asymptomatic,106,171,Yes,LV Hypertrophy,103,No,4.3,Flat,3,Reversible Defect,No,Yes,Low,18.5,Yes,No,Poor,Asian,South,1
+200,60,Female,Typical Angina,154,537,No,LV Hypertrophy,141,Yes,4.4,Upsloping,2,Reversible Defect,No,No,Low,28.9,No,No,Very Good,Hispanic,East,0
+201,60,Female,Asymptomatic,195,449,No,Normal,126,No,0.3,Flat,0,Normal,No,Yes,Low,24.6,Yes,No,Poor,White,East,1
+202,52,Female,Typical Angina,142,503,No,Normal,175,No,5.3,Flat,2,Normal,No,No,High,22.1,No,No,Excellent,Black,South,0
+203,69,Female,Typical Angina,139,396,No,Normal,171,No,2.8,Downsloping,3,Fixed Defect,No,No,Moderate,22.6,No,No,Good,Asian,South,0
+204,77,Male,Typical Angina,155,546,No,LV Hypertrophy,121,Yes,1.6,Upsloping,1,Fixed Defect,Yes,No,Moderate,32.1,No,No,Poor,Hispanic,South,1
+205,77,Male,Atypical Angina,101,510,No,LV Hypertrophy,144,Yes,1.5,Downsloping,3,Fixed Defect,No,Yes,Low,27.9,No,No,Good,Black,East,1
+206,40,Male,Asymptomatic,136,320,No,LV Hypertrophy,191,Yes,3.0,Flat,3,Fixed Defect,No,Yes,High,19.9,No,No,Good,Asian,South,0
+207,67,Male,Asymptomatic,113,492,No,Normal,75,No,5.5,Upsloping,3,Normal,No,No,High,21.3,No,No,Poor,Other,South,0
+208,30,Male,Typical Angina,190,405,Yes,ST-T Abnormality,153,Yes,2.3,Flat,3,Reversible Defect,No,No,Low,24.8,No,No,Very Good,Hispanic,South,1
+209,31,Male,Typical Angina,183,408,No,LV Hypertrophy,121,No,4.6,Downsloping,3,Reversible Defect,Yes,No,High,27.9,No,No,Poor,Other,North,1
+210,77,Male,Atypical Angina,132,165,No,LV Hypertrophy,80,No,0.6,Upsloping,0,Reversible Defect,No,No,Low,22.8,No,No,Fair,White,West,0
+211,65,Male,Atypical Angina,178,314,No,LV Hypertrophy,74,No,3.0,Downsloping,2,Fixed Defect,No,No,Low,25.3,No,No,Good,Black,South,1
+212,77,Female,Atypical Angina,142,289,No,ST-T Abnormality,165,No,6.1,Flat,1,Normal,No,Yes,Low,26.5,No,No,Excellent,Hispanic,West,0
+213,45,Male,Asymptomatic,157,149,No,LV Hypertrophy,150,Yes,4.8,Flat,3,Normal,No,No,High,26.5,No,No,Good,Asian,South,0
+214,77,Female,Asymptomatic,155,149,No,ST-T Abnormality,106,Yes,1.3,Flat,1,Normal,No,Yes,High,16.4,Yes,No,Excellent,Asian,South,0
+215,30,Female,Asymptomatic,199,129,No,LV Hypertrophy,95,Yes,3.1,Upsloping,0,Reversible Defect,No,No,Low,26.9,No,No,Fair,Black,North,0
+216,30,Female,Typical Angina,147,448,No,ST-T Abnormality,168,No,1.4,Downsloping,2,Fixed Defect,No,Yes,Moderate,19.1,No,Yes,Fair,Other,North,0
+217,56,Male,Asymptomatic,198,415,No,LV Hypertrophy,171,Yes,2.5,Downsloping,3,Normal,No,No,Moderate,24.9,No,No,Fair,Other,South,0
+218,51,Female,Non-anginal Pain,102,558,No,Normal,79,Yes,4.8,Flat,0,Fixed Defect,No,Yes,High,24.0,Yes,No,Poor,Hispanic,South,1
+219,65,Female,Non-anginal Pain,181,306,No,Normal,131,No,4.8,Downsloping,0,Normal,Yes,No,Low,21.7,No,No,Good,Hispanic,South,1
+220,60,Female,Atypical Angina,130,373,No,Normal,123,Yes,1.4,Upsloping,2,Fixed Defect,Yes,Yes,Moderate,29.4,No,No,Excellent,Other,West,1
+221,61,Male,Asymptomatic,142,241,No,Normal,133,No,5.7,Flat,3,Normal,No,No,Moderate,21.5,No,No,Fair,Hispanic,South,0
+222,29,Male,Non-anginal Pain,134,404,No,LV Hypertrophy,191,No,3.7,Flat,2,Fixed Defect,Yes,No,Low,23.9,No,No,Fair,Other,West,0
+223,47,Male,Atypical Angina,110,490,Yes,Normal,175,Yes,2.4,Flat,2,Normal,No,Yes,Low,29.5,No,No,Excellent,Black,North,0
+224,30,Male,Asymptomatic,181,194,Yes,ST-T Abnormality,74,Yes,3.1,Upsloping,1,Normal,Yes,No,Moderate,23.8,No,No,Good,Hispanic,West,0
+225,72,Male,Typical Angina,114,476,No,Normal,163,Yes,3.8,Flat,1,Fixed Defect,Yes,No,Low,23.0,Yes,Yes,Good,Other,South,1
+226,54,Female,Non-anginal Pain,144,379,No,Normal,98,No,3.5,Flat,2,Fixed Defect,No,Yes,High,24.9,No,No,Excellent,Hispanic,North,0
+227,60,Female,Typical Angina,152,306,No,Normal,150,No,3.0,Flat,1,Reversible Defect,No,Yes,Low,28.2,No,No,Very Good,Asian,East,0
+228,34,Male,Asymptomatic,132,443,Yes,LV Hypertrophy,146,No,3.1,Flat,0,Fixed Defect,No,No,High,31.8,No,No,Good,Asian,North,0
+229,60,Female,Non-anginal Pain,148,294,No,Normal,186,No,1.1,Downsloping,2,Normal,No,Yes,Low,22.3,No,No,Excellent,White,East,1
+230,32,Male,Asymptomatic,134,438,No,ST-T Abnormality,139,No,5.0,Flat,3,Normal,No,Yes,Low,22.6,No,No,Excellent,Other,West,0
+231,39,Female,Typical Angina,132,374,No,Normal,168,Yes,3.4,Upsloping,3,Fixed Defect,Yes,No,Low,24.9,No,No,Fair,White,North,1
+232,45,Female,Non-anginal Pain,106,313,No,Normal,71,Yes,0.8,Flat,0,Reversible Defect,No,No,Moderate,26.9,No,No,Excellent,Other,North,0
+233,66,Male,Typical Angina,157,179,No,Normal,166,No,4.8,Flat,3,Fixed Defect,No,No,Moderate,22.9,No,No,Poor,Hispanic,North,0
+234,52,Male,Asymptomatic,104,451,No,ST-T Abnormality,87,Yes,5.8,Downsloping,3,Normal,No,Yes,Low,28.8,No,No,Fair,Other,West,0
+235,33,Female,Asymptomatic,112,482,Yes,Normal,182,Yes,5.9,Flat,2,Normal,No,No,Low,22.3,No,No,Fair,Asian,South,0
+236,62,Male,Typical Angina,104,438,No,ST-T Abnormality,161,No,2.3,Downsloping,0,Reversible Defect,No,No,Moderate,18.4,No,Yes,Good,Hispanic,West,1
+237,34,Male,Non-anginal Pain,170,263,Yes,ST-T Abnormality,158,No,0.8,Upsloping,2,Fixed Defect,Yes,No,Moderate,28.1,Yes,No,Very Good,Asian,North,1
+238,50,Female,Typical Angina,139,293,No,Normal,160,No,3.2,Downsloping,0,Normal,Yes,Yes,Moderate,28.6,No,No,Good,Hispanic,South,0
+239,39,Male,Asymptomatic,138,516,No,ST-T Abnormality,119,No,0.7,Flat,2,Normal,No,No,Low,30.2,No,No,Poor,Other,North,1
+240,76,Female,Typical Angina,94,228,No,LV Hypertrophy,108,Yes,5.8,Upsloping,2,Normal,No,No,Moderate,18.0,Yes,No,Fair,Other,North,0
+241,44,Male,Asymptomatic,133,547,No,Normal,129,No,1.1,Flat,1,Fixed Defect,Yes,No,Moderate,23.3,No,Yes,Fair,Asian,East,0
+242,61,Female,Typical Angina,112,210,No,Normal,138,Yes,1.6,Downsloping,3,Fixed Defect,No,No,High,25.0,No,No,Excellent,Black,North,0
+243,37,Male,Non-anginal Pain,169,442,No,ST-T Abnormality,200,No,2.5,Upsloping,0,Reversible Defect,Yes,No,Moderate,33.0,No,No,Very Good,Other,West,1
+244,34,Female,Non-anginal Pain,165,337,No,ST-T Abnormality,119,No,2.4,Upsloping,3,Normal,No,Yes,Low,25.4,No,No,Very Good,Black,West,0
+245,44,Female,Typical Angina,165,128,No,Normal,196,Yes,4.9,Downsloping,1,Normal,No,No,Low,20.6,No,Yes,Excellent,Hispanic,West,0
+246,57,Male,Typical Angina,154,509,No,LV Hypertrophy,181,No,2.8,Downsloping,0,Reversible Defect,No,No,Moderate,27.2,No,No,Poor,Black,South,1
+247,31,Male,Non-anginal Pain,105,304,No,ST-T Abnormality,118,Yes,1.1,Upsloping,1,Normal,No,No,Moderate,31.2,No,No,Very Good,Asian,East,1
+248,48,Female,Asymptomatic,154,467,No,ST-T Abnormality,121,No,1.7,Upsloping,3,Reversible Defect,No,No,High,30.4,No,No,Fair,White,East,0
+249,64,Male,Non-anginal Pain,126,428,No,LV Hypertrophy,113,No,3.2,Downsloping,2,Reversible Defect,No,Yes,Moderate,28.2,No,No,Poor,White,North,0
+250,47,Male,Asymptomatic,138,457,No,LV Hypertrophy,168,No,0.9,Flat,1,Normal,Yes,No,Moderate,27.1,No,Yes,Good,Asian,North,1
+251,54,Male,Typical Angina,183,163,No,Normal,194,No,3.8,Upsloping,1,Fixed Defect,No,No,Moderate,16.9,No,No,Good,White,East,0
+252,31,Male,Typical Angina,196,545,No,LV Hypertrophy,150,Yes,3.5,Downsloping,2,Fixed Defect,Yes,No,Moderate,26.1,Yes,No,Poor,Asian,South,1
+253,47,Female,Asymptomatic,185,364,Yes,Normal,181,No,4.4,Flat,3,Fixed Defect,No,No,Low,26.7,Yes,No,Fair,Other,West,1
+254,48,Female,Typical Angina,162,294,No,LV Hypertrophy,97,No,5.8,Upsloping,1,Fixed Defect,No,No,Low,25.4,No,No,Good,Black,North,0
+255,60,Male,Asymptomatic,101,522,No,ST-T Abnormality,183,Yes,5.7,Upsloping,3,Normal,No,Yes,Moderate,28.8,No,No,Fair,White,East,1
+256,35,Male,Atypical Angina,118,468,No,Normal,156,No,5.9,Downsloping,2,Reversible Defect,No,No,Low,25.3,No,No,Excellent,Other,South,0
+257,69,Male,Non-anginal Pain,184,439,No,Normal,184,No,1.5,Flat,0,Reversible Defect,Yes,No,Low,24.5,No,No,Very Good,White,West,1
+258,61,Male,Atypical Angina,139,431,No,Normal,194,Yes,0.8,Upsloping,1,Normal,No,No,Low,30.2,Yes,No,Poor,Hispanic,North,1
+259,68,Male,Asymptomatic,180,155,No,LV Hypertrophy,119,No,1.9,Flat,3,Fixed Defect,No,Yes,Low,24.3,Yes,No,Very Good,Asian,West,0
+260,67,Female,Non-anginal Pain,123,315,No,ST-T Abnormality,146,Yes,5.5,Flat,2,Reversible Defect,No,No,Low,26.3,No,No,Excellent,Asian,West,1
+261,46,Female,Asymptomatic,140,482,No,Normal,125,No,6.0,Upsloping,2,Normal,Yes,Yes,Moderate,29.6,No,No,Good,Other,East,1
+262,68,Female,Non-anginal Pain,180,150,No,Normal,126,Yes,5.3,Flat,1,Normal,No,Yes,Moderate,22.0,No,No,Fair,Hispanic,East,0
+263,29,Female,Non-anginal Pain,142,237,No,Normal,165,No,0.7,Upsloping,0,Fixed Defect,No,No,Moderate,21.5,No,No,Fair,Black,West,0
+264,39,Male,Non-anginal Pain,140,536,No,Normal,114,No,5.9,Flat,1,Normal,No,Yes,Moderate,31.4,Yes,No,Excellent,Hispanic,West,0
+265,56,Female,Non-anginal Pain,177,560,No,ST-T Abnormality,157,No,2.6,Upsloping,3,Reversible Defect,No,No,High,23.6,No,No,Poor,Hispanic,North,0
+266,53,Male,Asymptomatic,175,331,No,LV Hypertrophy,154,No,0.1,Downsloping,2,Reversible Defect,No,No,Low,28.8,No,No,Very Good,Black,South,1
+267,51,Male,Non-anginal Pain,111,310,No,ST-T Abnormality,86,No,2.7,Upsloping,0,Normal,Yes,No,Moderate,18.9,No,No,Good,Black,South,1
+268,59,Male,Non-anginal Pain,159,507,No,Normal,107,No,0.3,Upsloping,3,Reversible Defect,Yes,No,Low,16.0,No,No,Poor,Hispanic,West,1
+269,58,Male,Atypical Angina,161,504,No,ST-T Abnormality,147,Yes,3.4,Upsloping,1,Normal,No,No,Moderate,27.5,No,No,Excellent,White,East,1
+270,70,Female,Typical Angina,187,172,No,Normal,115,No,2.1,Flat,2,Reversible Defect,Yes,No,High,25.5,No,No,Excellent,White,South,0
+271,63,Male,Typical Angina,126,499,No,LV Hypertrophy,132,No,2.9,Downsloping,1,Fixed Defect,No,Yes,Moderate,27.5,Yes,No,Fair,Hispanic,West,1
+272,35,Male,Atypical Angina,129,353,No,LV Hypertrophy,170,No,3.8,Flat,0,Reversible Defect,No,No,Moderate,33.5,Yes,No,Good,White,East,0
+273,44,Male,Atypical Angina,175,164,Yes,LV Hypertrophy,122,No,5.4,Flat,0,Fixed Defect,No,No,Moderate,21.1,No,No,Poor,Black,North,0
+274,54,Male,Asymptomatic,194,141,No,Normal,89,No,4.1,Upsloping,0,Fixed Defect,Yes,Yes,Moderate,26.2,No,No,Fair,Black,South,1
+275,76,Female,Asymptomatic,112,147,No,ST-T Abnormality,179,No,2.7,Flat,0,Normal,No,Yes,Low,31.9,Yes,No,Good,White,North,1
+276,77,Male,Asymptomatic,121,338,No,LV Hypertrophy,114,No,5.1,Upsloping,0,Fixed Defect,Yes,Yes,Moderate,21.6,No,No,Very Good,Black,East,1
+277,30,Male,Atypical Angina,133,435,No,Normal,77,Yes,5.6,Downsloping,1,Reversible Defect,No,No,Moderate,23.7,No,No,Very Good,Asian,West,1
+278,29,Male,Atypical Angina,177,274,No,Normal,187,No,0.7,Flat,0,Reversible Defect,No,No,Low,18.9,No,No,Fair,Black,North,1
+279,76,Male,Non-anginal Pain,190,366,No,ST-T Abnormality,138,No,3.3,Flat,0,Fixed Defect,No,No,Low,35.0,Yes,No,Poor,Hispanic,West,1
+280,40,Female,Asymptomatic,169,397,No,LV Hypertrophy,104,No,1.8,Flat,2,Normal,No,No,High,17.2,No,No,Good,Other,South,0
+281,33,Male,Asymptomatic,108,184,Yes,Normal,139,No,0.3,Upsloping,0,Fixed Defect,Yes,No,Low,29.2,No,No,Very Good,White,North,0
+282,65,Female,Asymptomatic,134,412,No,ST-T Abnormality,125,Yes,4.1,Upsloping,2,Reversible Defect,No,No,Low,20.7,No,No,Very Good,White,South,1
+283,60,Male,Typical Angina,132,551,No,LV Hypertrophy,80,No,5.3,Flat,2,Reversible Defect,Yes,Yes,Moderate,21.8,No,No,Poor,Black,South,0
+284,37,Male,Non-anginal Pain,95,327,No,ST-T Abnormality,112,No,1.0,Flat,2,Fixed Defect,Yes,No,Low,30.3,No,No,Fair,Black,South,0
+285,69,Female,Asymptomatic,156,157,No,ST-T Abnormality,111,Yes,5.0,Downsloping,1,Fixed Defect,No,No,Moderate,23.0,No,No,Excellent,Other,South,0
+286,63,Male,Asymptomatic,122,287,No,Normal,192,No,5.3,Downsloping,1,Fixed Defect,No,No,Moderate,28.6,No,No,Good,Other,South,1
+287,47,Male,Asymptomatic,198,380,No,Normal,80,Yes,5.7,Downsloping,3,Reversible Defect,No,No,Moderate,31.5,No,Yes,Very Good,Hispanic,East,1
+288,76,Female,Typical Angina,167,379,No,Normal,172,No,1.6,Downsloping,3,Reversible Defect,No,No,Low,26.8,No,No,Excellent,Asian,North,1
+289,44,Male,Typical Angina,159,134,No,ST-T Abnormality,198,Yes,5.6,Downsloping,2,Reversible Defect,No,Yes,Moderate,29.6,No,No,Poor,Hispanic,West,0
+290,31,Female,Atypical Angina,144,264,No,Normal,162,No,2.0,Upsloping,1,Normal,No,No,High,26.3,No,No,Fair,White,West,0
+291,48,Male,Non-anginal Pain,168,135,No,ST-T Abnormality,183,No,3.4,Downsloping,0,Reversible Defect,No,No,Low,26.5,No,No,Good,Black,East,0
+292,52,Female,Atypical Angina,170,339,No,ST-T Abnormality,148,No,0.3,Downsloping,3,Reversible Defect,Yes,No,Low,23.5,Yes,No,Poor,Hispanic,West,0
+293,61,Female,Non-anginal Pain,103,398,No,Normal,155,No,0.3,Flat,1,Normal,No,Yes,High,33.7,No,No,Fair,Black,West,1
+294,52,Male,Typical Angina,107,449,No,LV Hypertrophy,100,No,4.5,Upsloping,0,Normal,Yes,Yes,Low,29.0,Yes,No,Poor,Black,West,1
+295,39,Female,Asymptomatic,175,173,Yes,LV Hypertrophy,119,Yes,2.8,Downsloping,0,Normal,No,No,Low,28.1,Yes,No,Very Good,Hispanic,North,1
+296,77,Male,Atypical Angina,144,561,No,LV Hypertrophy,79,Yes,1.6,Downsloping,1,Normal,No,Yes,Low,29.1,No,No,Very Good,Hispanic,West,1
+297,36,Female,Asymptomatic,166,236,No,ST-T Abnormality,139,No,1.2,Downsloping,3,Normal,No,Yes,Low,23.3,No,No,Excellent,Other,North,0
+298,64,Male,Atypical Angina,132,278,No,ST-T Abnormality,128,Yes,4.2,Flat,1,Normal,No,No,Low,29.7,No,No,Poor,Asian,West,1
+299,66,Male,Typical Angina,121,248,No,ST-T Abnormality,132,No,0.0,Flat,3,Fixed Defect,Yes,No,Moderate,32.2,No,No,Very Good,Other,West,1
+300,68,Male,Typical Angina,96,530,No,Normal,122,No,5.0,Flat,2,Fixed Defect,No,No,Moderate,20.5,No,No,Fair,Asian,North,0
+301,48,Male,Typical Angina,177,482,No,ST-T Abnormality,110,No,0.5,Downsloping,1,Fixed Defect,No,No,Low,28.2,No,No,Excellent,Hispanic,East,0
+302,63,Male,Atypical Angina,163,227,No,Normal,133,No,1.2,Flat,1,Fixed Defect,No,No,High,26.3,No,No,Good,Asian,West,0
+303,76,Female,Non-anginal Pain,120,366,No,Normal,120,Yes,2.4,Downsloping,3,Reversible Defect,No,Yes,Moderate,23.9,No,No,Poor,White,South,0
+304,53,Female,Atypical Angina,95,446,No,LV Hypertrophy,148,Yes,3.0,Upsloping,3,Normal,No,No,High,21.6,No,No,Very Good,Other,South,0
+305,63,Female,Non-anginal Pain,186,316,No,LV Hypertrophy,167,No,2.2,Downsloping,1,Reversible Defect,No,No,High,30.2,No,No,Fair,Other,East,0
+306,53,Male,Atypical Angina,131,342,No,LV Hypertrophy,113,No,2.0,Flat,0,Normal,No,No,Moderate,26.8,Yes,No,Poor,Other,South,0
+307,57,Male,Atypical Angina,96,176,No,Normal,106,No,6.0,Upsloping,0,Normal,Yes,No,High,25.2,Yes,No,Fair,Black,North,1
+308,46,Male,Typical Angina,109,417,Yes,Normal,192,Yes,4.0,Downsloping,0,Reversible Defect,Yes,No,Moderate,28.2,No,No,Excellent,Black,West,1
+309,74,Male,Asymptomatic,187,206,No,Normal,178,No,0.1,Upsloping,2,Fixed Defect,No,No,High,25.5,No,No,Very Good,Hispanic,West,0
+310,46,Male,Asymptomatic,133,508,No,ST-T Abnormality,80,No,2.7,Upsloping,2,Reversible Defect,Yes,Yes,Low,23.2,No,No,Very Good,Hispanic,West,1
+311,30,Male,Non-anginal Pain,95,213,No,Normal,165,No,5.4,Upsloping,3,Reversible Defect,No,No,Low,26.5,Yes,Yes,Excellent,Black,West,1
+312,63,Female,Asymptomatic,174,319,No,LV Hypertrophy,76,Yes,1.9,Downsloping,2,Normal,No,No,Moderate,25.9,No,No,Fair,Other,South,0
+313,44,Male,Atypical Angina,134,229,No,LV Hypertrophy,127,No,0.6,Flat,0,Normal,No,No,Moderate,18.9,No,Yes,Poor,Black,South,0
+314,69,Male,Atypical Angina,105,396,Yes,Normal,199,No,4.7,Downsloping,1,Normal,No,No,High,23.5,Yes,No,Fair,Asian,South,0
+315,64,Male,Typical Angina,128,221,No,Normal,141,Yes,3.8,Flat,2,Fixed Defect,Yes,Yes,High,20.9,No,No,Poor,Other,North,1
+316,61,Male,Typical Angina,158,548,No,LV Hypertrophy,91,No,3.5,Downsloping,2,Reversible Defect,No,No,Low,19.4,Yes,Yes,Excellent,Black,South,1
+317,32,Male,Asymptomatic,148,504,No,Normal,162,No,0.3,Downsloping,0,Reversible Defect,No,No,High,27.9,No,No,Good,Hispanic,South,0
+318,61,Female,Non-anginal Pain,138,323,No,LV Hypertrophy,197,No,0.9,Downsloping,2,Fixed Defect,No,No,Low,23.3,No,No,Poor,Black,West,1
+319,42,Male,Asymptomatic,172,126,No,ST-T Abnormality,150,No,3.9,Flat,3,Reversible Defect,Yes,Yes,Low,30.2,No,No,Very Good,White,South,0
+320,49,Male,Asymptomatic,183,532,No,LV Hypertrophy,126,Yes,1.3,Downsloping,1,Reversible Defect,No,No,Moderate,18.7,Yes,No,Very Good,Black,East,1
+321,76,Male,Asymptomatic,194,503,No,ST-T Abnormality,186,No,3.1,Upsloping,0,Normal,Yes,No,Low,24.8,No,No,Very Good,Other,East,1
+322,48,Female,Asymptomatic,178,292,No,Normal,95,No,3.4,Downsloping,3,Fixed Defect,No,No,Moderate,23.5,No,No,Fair,Black,West,0
+323,36,Female,Atypical Angina,155,251,No,Normal,75,No,1.8,Upsloping,0,Normal,Yes,No,Moderate,19.7,No,Yes,Fair,Hispanic,South,1
+324,35,Female,Non-anginal Pain,142,438,No,ST-T Abnormality,190,No,5.9,Flat,3,Fixed Defect,No,No,Low,26.0,Yes,No,Fair,Asian,East,1
+325,31,Female,Atypical Angina,188,206,No,Normal,91,No,5.2,Flat,1,Normal,No,No,Moderate,20.0,Yes,No,Very Good,White,East,0
+326,45,Male,Non-anginal Pain,118,543,No,ST-T Abnormality,88,Yes,4.5,Downsloping,1,Reversible Defect,Yes,No,Moderate,26.9,No,Yes,Poor,Other,North,1
+327,61,Male,Typical Angina,116,376,No,Normal,127,No,0.5,Downsloping,3,Fixed Defect,Yes,No,Low,28.9,No,No,Very Good,Hispanic,West,1
+328,76,Female,Asymptomatic,117,294,No,LV Hypertrophy,163,No,0.7,Downsloping,3,Fixed Defect,No,No,Low,27.1,Yes,No,Poor,White,East,1
+329,40,Female,Atypical Angina,131,198,No,Normal,89,Yes,3.1,Upsloping,3,Normal,Yes,No,High,27.6,No,No,Fair,Black,East,0
+330,50,Male,Non-anginal Pain,121,266,No,LV Hypertrophy,198,No,1.0,Flat,3,Fixed Defect,No,No,High,30.1,No,Yes,Good,White,West,1
+331,50,Female,Typical Angina,114,195,No,LV Hypertrophy,167,No,6.1,Upsloping,3,Reversible Defect,No,No,Low,25.9,No,No,Fair,Asian,South,0
+332,74,Female,Typical Angina,147,387,Yes,ST-T Abnormality,201,No,1.0,Upsloping,3,Reversible Defect,No,No,Low,22.7,No,Yes,Excellent,White,West,1
+333,58,Male,Asymptomatic,111,465,No,Normal,91,Yes,3.0,Downsloping,1,Reversible Defect,No,No,High,23.6,No,No,Poor,White,North,0
+334,66,Female,Non-anginal Pain,129,433,No,ST-T Abnormality,110,No,2.3,Downsloping,3,Normal,Yes,No,Moderate,23.7,Yes,No,Good,Black,North,0
+335,66,Female,Atypical Angina,192,370,No,Normal,137,Yes,4.0,Upsloping,2,Fixed Defect,No,No,Low,21.8,Yes,No,Fair,Black,North,1
+336,73,Male,Asymptomatic,138,128,No,LV Hypertrophy,197,No,0.8,Upsloping,1,Normal,Yes,Yes,Moderate,29.1,No,No,Good,Other,East,0
+337,36,Female,Atypical Angina,166,462,No,LV Hypertrophy,125,No,2.7,Downsloping,0,Reversible Defect,No,Yes,Moderate,28.1,No,No,Very Good,Black,South,0
+338,55,Male,Typical Angina,146,188,No,Normal,179,No,1.7,Downsloping,1,Fixed Defect,No,Yes,Moderate,19.3,No,No,Poor,White,North,0
+339,55,Male,Atypical Angina,195,174,No,Normal,168,No,5.5,Upsloping,0,Reversible Defect,No,Yes,Low,22.7,No,No,Excellent,Asian,West,0
+340,62,Male,Atypical Angina,123,201,No,ST-T Abnormality,182,No,0.3,Downsloping,0,Fixed Defect,Yes,No,Moderate,21.6,No,No,Very Good,Black,North,0
+341,49,Male,Asymptomatic,153,493,No,Normal,185,No,5.7,Downsloping,2,Fixed Defect,No,Yes,Low,27.3,No,No,Good,Other,East,0
+342,58,Female,Atypical Angina,191,300,No,Normal,187,No,5.2,Upsloping,3,Normal,No,Yes,High,30.3,No,No,Fair,Other,North,1
+343,61,Male,Asymptomatic,125,234,No,Normal,157,No,1.8,Upsloping,3,Fixed Defect,No,Yes,Moderate,27.8,No,No,Poor,White,South,0
+344,56,Male,Typical Angina,160,308,Yes,ST-T Abnormality,151,No,4.9,Flat,1,Reversible Defect,No,No,Moderate,23.2,No,Yes,Excellent,Black,North,0
+345,75,Male,Asymptomatic,160,317,No,Normal,136,No,0.2,Upsloping,3,Fixed Defect,No,No,Moderate,24.7,No,No,Fair,Black,South,1
+346,61,Male,Asymptomatic,121,190,No,LV Hypertrophy,89,No,6.0,Downsloping,2,Reversible Defect,Yes,Yes,Moderate,20.4,No,No,Excellent,Other,South,0
+347,33,Female,Non-anginal Pain,137,462,No,ST-T Abnormality,188,No,3.3,Upsloping,1,Normal,No,No,High,20.7,No,No,Poor,Black,West,0
+348,76,Male,Atypical Angina,172,396,No,ST-T Abnormality,112,No,1.9,Upsloping,1,Reversible Defect,No,No,Low,29.4,Yes,Yes,Good,White,South,1
+349,47,Male,Typical Angina,134,225,No,LV Hypertrophy,112,Yes,2.2,Upsloping,1,Fixed Defect,No,Yes,High,31.8,Yes,No,Excellent,Asian,East,1
+350,32,Male,Asymptomatic,156,157,Yes,LV Hypertrophy,129,Yes,0.4,Flat,3,Reversible Defect,No,No,Low,23.1,No,No,Poor,White,East,1
+351,63,Female,Typical Angina,116,477,No,LV Hypertrophy,90,No,6.1,Flat,3,Reversible Defect,Yes,Yes,Low,26.2,No,No,Excellent,Black,South,1
+352,77,Female,Non-anginal Pain,197,253,No,Normal,143,No,0.2,Downsloping,3,Fixed Defect,No,No,Moderate,28.9,Yes,No,Fair,White,South,0
+353,45,Male,Atypical Angina,168,527,No,LV Hypertrophy,87,No,4.1,Flat,1,Reversible Defect,No,Yes,Moderate,19.3,No,No,Excellent,Hispanic,North,0
+354,72,Male,Asymptomatic,141,494,No,Normal,97,No,2.7,Upsloping,1,Fixed Defect,Yes,No,High,21.8,No,No,Fair,Hispanic,North,0
+355,56,Male,Atypical Angina,125,464,No,ST-T Abnormality,72,Yes,5.9,Flat,0,Normal,No,Yes,Moderate,34.0,No,No,Fair,Black,West,1
+356,58,Male,Non-anginal Pain,150,168,No,ST-T Abnormality,133,No,1.5,Upsloping,0,Reversible Defect,No,No,Moderate,22.2,No,No,Poor,Black,North,0
+357,57,Male,Non-anginal Pain,193,497,No,LV Hypertrophy,132,No,3.3,Flat,3,Normal,No,No,High,24.6,No,No,Very Good,Asian,East,1
+358,74,Male,Typical Angina,126,544,No,Normal,170,No,3.0,Flat,1,Reversible Defect,No,Yes,Low,23.6,Yes,No,Excellent,White,North,1
+359,34,Male,Asymptomatic,117,203,No,LV Hypertrophy,89,No,4.4,Flat,3,Reversible Defect,No,No,High,18.0,No,No,Good,Asian,West,0
+360,63,Male,Typical Angina,132,439,No,LV Hypertrophy,87,Yes,0.4,Upsloping,3,Normal,Yes,No,Moderate,26.3,No,No,Fair,Black,West,1
+361,69,Female,Non-anginal Pain,127,414,No,Normal,139,Yes,1.2,Flat,0,Reversible Defect,No,No,Low,25.9,Yes,No,Very Good,Black,South,1
+362,65,Male,Atypical Angina,149,395,No,LV Hypertrophy,187,No,1.3,Upsloping,2,Reversible Defect,No,Yes,Low,26.7,No,No,Fair,Other,West,0
+363,52,Male,Typical Angina,121,287,No,ST-T Abnormality,151,No,4.6,Upsloping,3,Normal,No,Yes,Moderate,25.7,No,No,Very Good,Asian,South,0
+364,57,Male,Typical Angina,130,314,No,LV Hypertrophy,109,No,1.2,Downsloping,2,Reversible Defect,No,No,Low,24.2,No,No,Very Good,Black,East,0
+365,77,Male,Atypical Angina,100,372,No,Normal,106,Yes,3.6,Flat,2,Fixed Defect,No,No,Low,23.9,No,No,Good,Hispanic,East,1
+366,74,Female,Typical Angina,161,513,No,Normal,99,Yes,1.3,Downsloping,1,Reversible Defect,Yes,No,Low,24.0,No,No,Very Good,Other,North,1
+367,59,Male,Atypical Angina,130,341,No,ST-T Abnormality,121,No,5.3,Downsloping,1,Reversible Defect,Yes,Yes,Low,22.0,No,No,Good,White,West,1
+368,63,Male,Asymptomatic,149,440,No,Normal,84,No,5.8,Upsloping,3,Reversible Defect,No,No,Moderate,22.7,Yes,No,Poor,Other,East,1
+369,61,Female,Atypical Angina,158,538,Yes,Normal,139,No,3.2,Flat,0,Normal,No,No,High,22.1,No,No,Fair,White,South,0
+370,49,Male,Asymptomatic,158,464,No,ST-T Abnormality,127,Yes,2.2,Upsloping,0,Fixed Defect,No,No,Low,28.3,No,No,Good,Hispanic,West,1
+371,60,Male,Atypical Angina,140,515,No,LV Hypertrophy,82,No,1.5,Upsloping,3,Fixed Defect,No,No,Moderate,27.2,Yes,Yes,Fair,White,West,1
+372,51,Female,Non-anginal Pain,113,502,Yes,ST-T Abnormality,87,Yes,0.3,Flat,3,Reversible Defect,No,No,Low,26.1,No,No,Excellent,Asian,South,1
+373,61,Male,Non-anginal Pain,112,558,No,LV Hypertrophy,100,Yes,1.7,Upsloping,0,Normal,No,No,Moderate,33.8,No,No,Poor,White,West,1
+374,31,Male,Asymptomatic,122,293,No,ST-T Abnormality,158,No,4.1,Flat,2,Normal,No,Yes,High,22.3,No,No,Excellent,White,West,0
+375,46,Female,Asymptomatic,167,464,No,LV Hypertrophy,169,Yes,3.3,Flat,3,Fixed Defect,No,No,Moderate,30.5,Yes,No,Excellent,Other,East,1
+376,53,Male,Non-anginal Pain,153,318,No,ST-T Abnormality,93,Yes,5.9,Upsloping,2,Normal,No,Yes,High,25.0,No,No,Very Good,Hispanic,South,1
+377,70,Male,Asymptomatic,111,408,No,LV Hypertrophy,199,No,2.5,Upsloping,3,Reversible Defect,No,No,Moderate,26.6,Yes,No,Very Good,White,East,0
+378,59,Male,Atypical Angina,185,461,No,ST-T Abnormality,149,No,4.3,Downsloping,3,Reversible Defect,Yes,No,Moderate,28.7,No,No,Excellent,Asian,South,1
+379,31,Female,Atypical Angina,128,515,No,LV Hypertrophy,102,No,3.0,Upsloping,2,Normal,No,No,Moderate,24.1,No,No,Very Good,Other,North,0
+380,68,Male,Non-anginal Pain,136,138,No,ST-T Abnormality,79,No,3.2,Flat,2,Reversible Defect,No,No,High,21.8,No,Yes,Fair,Hispanic,West,0
+381,74,Male,Typical Angina,188,365,No,Normal,85,Yes,1.7,Downsloping,0,Fixed Defect,Yes,Yes,High,22.4,No,No,Very Good,Hispanic,West,1
+382,52,Male,Atypical Angina,184,445,No,LV Hypertrophy,97,Yes,2.8,Flat,3,Reversible Defect,Yes,No,Moderate,17.6,Yes,Yes,Excellent,Black,East,1
+383,60,Male,Asymptomatic,104,272,No,ST-T Abnormality,179,No,2.9,Downsloping,1,Normal,Yes,No,High,28.4,No,No,Very Good,Asian,West,1
+384,75,Male,Typical Angina,142,329,No,LV Hypertrophy,146,No,4.4,Upsloping,1,Fixed Defect,No,No,Low,28.3,No,Yes,Very Good,Other,West,1
+385,50,Male,Typical Angina,131,205,No,LV Hypertrophy,135,No,5.8,Upsloping,3,Reversible Defect,Yes,No,High,32.3,No,No,Good,Other,East,0
+386,51,Male,Atypical Angina,157,504,No,ST-T Abnormality,179,Yes,2.0,Upsloping,3,Fixed Defect,Yes,No,Low,27.7,No,No,Good,Asian,East,1
+387,30,Male,Atypical Angina,162,168,Yes,LV Hypertrophy,199,No,0.3,Flat,3,Normal,No,No,Low,28.6,Yes,No,Excellent,Hispanic,South,0
+388,55,Male,Typical Angina,101,214,Yes,ST-T Abnormality,80,Yes,3.1,Downsloping,2,Reversible Defect,No,Yes,Low,25.7,No,No,Fair,White,North,1
+389,70,Male,Typical Angina,127,273,No,Normal,117,No,3.4,Flat,1,Reversible Defect,Yes,No,High,27.9,Yes,No,Poor,Asian,East,1
+390,30,Male,Non-anginal Pain,141,220,No,LV Hypertrophy,193,No,1.0,Downsloping,1,Fixed Defect,No,Yes,High,30.4,No,No,Poor,Other,South,0
+391,54,Male,Asymptomatic,149,553,No,Normal,129,No,4.7,Upsloping,1,Reversible Defect,No,No,High,26.7,No,No,Excellent,Asian,East,0
+392,45,Female,Non-anginal Pain,169,276,No,LV Hypertrophy,166,No,6.1,Flat,3,Reversible Defect,No,No,High,23.9,No,No,Fair,Hispanic,South,0
+393,68,Male,Atypical Angina,195,127,No,LV Hypertrophy,173,No,5.9,Upsloping,2,Reversible Defect,No,No,Moderate,25.1,No,No,Fair,Black,North,0
+394,61,Male,Non-anginal Pain,158,501,Yes,LV Hypertrophy,194,No,1.2,Flat,3,Reversible Defect,Yes,No,High,29.0,No,No,Fair,Black,South,0
+395,37,Male,Non-anginal Pain,124,147,No,ST-T Abnormality,156,No,5.4,Upsloping,0,Normal,No,No,High,24.0,No,No,Good,White,South,0
+396,71,Female,Non-anginal Pain,97,496,No,Normal,182,Yes,4.4,Flat,0,Reversible Defect,No,No,Moderate,29.6,No,No,Excellent,White,West,0
+397,76,Female,Non-anginal Pain,143,438,No,LV Hypertrophy,97,No,2.8,Flat,1,Fixed Defect,Yes,No,Low,33.6,No,No,Poor,Hispanic,East,1
+398,67,Male,Asymptomatic,162,453,No,ST-T Abnormality,88,Yes,3.4,Downsloping,3,Normal,No,No,Moderate,29.6,No,No,Fair,White,South,1
+399,57,Male,Asymptomatic,123,132,No,LV Hypertrophy,152,No,5.3,Upsloping,0,Fixed Defect,No,No,High,29.0,No,No,Excellent,Black,East,0
+400,70,Female,Typical Angina,181,331,No,ST-T Abnormality,142,No,3.0,Downsloping,0,Fixed Defect,No,Yes,High,27.4,No,No,Poor,Hispanic,South,0
+401,54,Male,Atypical Angina,152,500,No,LV Hypertrophy,124,No,2.3,Downsloping,3,Fixed Defect,No,No,High,22.9,Yes,Yes,Good,Hispanic,West,1
+402,63,Male,Non-anginal Pain,160,239,No,Normal,141,No,3.1,Upsloping,2,Normal,No,No,High,22.5,Yes,No,Very Good,Hispanic,West,0
+403,53,Male,Typical Angina,168,397,No,Normal,108,Yes,3.6,Flat,3,Normal,No,Yes,High,22.5,No,No,Poor,Asian,North,1
+404,52,Male,Typical Angina,138,208,No,LV Hypertrophy,105,No,1.2,Downsloping,3,Normal,No,No,Moderate,28.2,No,No,Poor,White,South,0
+405,41,Female,Typical Angina,97,304,No,ST-T Abnormality,152,No,5.6,Upsloping,2,Reversible Defect,No,No,Moderate,24.4,No,No,Poor,Other,West,0
+406,35,Female,Asymptomatic,119,335,Yes,LV Hypertrophy,74,No,4.2,Flat,1,Fixed Defect,No,Yes,Low,25.9,No,No,Very Good,Black,East,0
+407,64,Male,Non-anginal Pain,120,453,No,ST-T Abnormality,93,No,3.9,Downsloping,1,Normal,No,Yes,Moderate,27.7,Yes,No,Fair,White,South,1
+408,73,Male,Non-anginal Pain,139,249,No,LV Hypertrophy,118,No,0.6,Downsloping,1,Fixed Defect,No,No,Moderate,22.6,No,No,Very Good,Black,South,0
+409,48,Female,Atypical Angina,157,238,No,ST-T Abnormality,195,No,3.7,Downsloping,2,Normal,No,No,High,24.0,No,No,Poor,White,North,0
+410,29,Female,Non-anginal Pain,184,137,No,Normal,125,Yes,0.7,Flat,0,Normal,No,No,Moderate,27.3,No,No,Good,Other,East,0
+411,36,Male,Non-anginal Pain,199,251,No,LV Hypertrophy,138,Yes,0.5,Downsloping,2,Normal,No,Yes,Low,24.8,Yes,No,Poor,Black,North,1
+412,74,Female,Typical Angina,144,178,No,Normal,158,No,3.3,Flat,3,Fixed Defect,No,Yes,Low,25.2,Yes,No,Good,Other,South,1
+413,44,Female,Atypical Angina,143,456,No,Normal,71,No,2.5,Downsloping,2,Reversible Defect,Yes,No,Moderate,21.9,No,Yes,Excellent,Black,North,0
+414,42,Female,Non-anginal Pain,99,514,No,LV Hypertrophy,165,No,3.7,Upsloping,0,Normal,No,No,Moderate,25.3,No,No,Good,Asian,South,0
+415,40,Male,Asymptomatic,152,408,Yes,LV Hypertrophy,176,No,0.6,Downsloping,0,Normal,Yes,No,Low,32.6,No,No,Poor,Asian,South,1
+416,51,Male,Non-anginal Pain,108,265,No,ST-T Abnormality,178,No,2.7,Upsloping,3,Normal,Yes,No,Low,24.2,Yes,No,Very Good,Black,North,1
+417,43,Female,Typical Angina,123,526,No,ST-T Abnormality,112,No,1.1,Upsloping,1,Reversible Defect,Yes,Yes,Moderate,21.4,No,No,Poor,Black,North,0
+418,56,Male,Asymptomatic,135,515,Yes,Normal,172,Yes,6.1,Upsloping,0,Fixed Defect,No,No,Low,29.8,No,No,Poor,Other,South,1
+419,62,Female,Typical Angina,194,222,No,ST-T Abnormality,194,Yes,3.5,Flat,0,Fixed Defect,No,No,Low,28.1,Yes,No,Excellent,Hispanic,North,1
+420,30,Male,Non-anginal Pain,130,130,No,ST-T Abnormality,173,No,4.3,Upsloping,0,Fixed Defect,No,No,Low,26.9,No,No,Fair,Black,North,0
+421,60,Male,Asymptomatic,135,182,No,LV Hypertrophy,144,No,2.0,Downsloping,3,Fixed Defect,No,No,Moderate,20.7,No,No,Poor,White,South,0
+422,51,Male,Atypical Angina,194,537,No,ST-T Abnormality,178,No,0.6,Flat,0,Normal,No,No,Moderate,21.3,No,Yes,Excellent,White,East,1
+423,50,Male,Atypical Angina,128,459,No,Normal,192,No,6.1,Upsloping,1,Reversible Defect,No,Yes,Low,19.9,No,No,Very Good,White,North,0
+424,53,Female,Asymptomatic,180,194,Yes,ST-T Abnormality,87,Yes,1.8,Flat,3,Normal,No,No,High,27.7,No,No,Excellent,Asian,North,0
+425,50,Female,Asymptomatic,99,243,No,Normal,141,No,2.6,Flat,1,Reversible Defect,No,No,Low,30.1,No,No,Excellent,Other,West,0
+426,50,Female,Typical Angina,161,501,Yes,LV Hypertrophy,132,Yes,4.0,Flat,0,Fixed Defect,No,No,Low,27.9,No,No,Good,Asian,East,1
+427,77,Male,Asymptomatic,111,184,No,Normal,111,No,0.2,Downsloping,0,Reversible Defect,No,No,Low,33.8,No,No,Fair,White,North,0
+428,70,Male,Typical Angina,166,158,Yes,ST-T Abnormality,189,No,5.0,Upsloping,1,Normal,No,No,Low,24.2,No,No,Fair,Black,South,0
+429,34,Male,Non-anginal Pain,122,443,No,LV Hypertrophy,115,No,3.3,Flat,3,Normal,No,No,Low,24.7,No,No,Very Good,White,West,0
+430,43,Male,Typical Angina,170,175,No,ST-T Abnormality,128,No,1.7,Flat,3,Fixed Defect,No,Yes,Low,26.4,No,No,Excellent,Black,West,0
+431,71,Male,Asymptomatic,152,493,No,LV Hypertrophy,196,Yes,0.4,Flat,1,Normal,Yes,No,Moderate,25.1,Yes,No,Very Good,Other,West,1
+432,65,Male,Asymptomatic,140,144,No,LV Hypertrophy,114,No,1.0,Upsloping,0,Normal,No,No,Moderate,28.0,No,No,Very Good,Hispanic,North,0
+433,61,Male,Non-anginal Pain,110,339,No,ST-T Abnormality,85,Yes,5.5,Flat,2,Reversible Defect,No,No,Moderate,23.4,No,No,Fair,Black,South,1
+434,36,Male,Asymptomatic,189,322,No,ST-T Abnormality,148,No,4.3,Flat,1,Normal,Yes,No,Moderate,20.4,No,No,Fair,Asian,West,0
+435,72,Female,Asymptomatic,115,504,Yes,LV Hypertrophy,140,No,1.5,Downsloping,1,Fixed Defect,No,Yes,Low,18.8,No,No,Fair,White,East,0
+436,72,Female,Atypical Angina,161,172,No,LV Hypertrophy,171,No,0.4,Upsloping,1,Fixed Defect,Yes,No,High,27.9,No,No,Poor,White,West,0
+437,33,Male,Atypical Angina,162,292,No,ST-T Abnormality,73,No,4.3,Downsloping,0,Normal,No,No,Low,23.9,No,No,Excellent,White,West,0
+438,67,Male,Non-anginal Pain,130,414,Yes,Normal,156,Yes,3.5,Upsloping,3,Fixed Defect,No,No,Moderate,21.3,No,No,Very Good,Black,East,1
+439,32,Female,Typical Angina,198,266,Yes,ST-T Abnormality,144,No,2.5,Upsloping,0,Reversible Defect,No,No,Low,23.5,No,No,Excellent,Other,West,0
+440,34,Male,Atypical Angina,142,209,No,LV Hypertrophy,121,Yes,2.3,Upsloping,1,Reversible Defect,No,Yes,High,33.8,No,No,Very Good,Black,West,1
+441,73,Female,Typical Angina,106,307,Yes,ST-T Abnormality,137,No,1.3,Downsloping,0,Normal,Yes,No,Moderate,21.6,No,No,Very Good,Asian,East,0
+442,60,Female,Asymptomatic,127,516,No,Normal,146,Yes,4.2,Downsloping,0,Normal,No,No,Low,28.9,No,No,Very Good,White,North,1
+443,58,Male,Atypical Angina,179,204,No,ST-T Abnormality,163,Yes,6.0,Downsloping,1,Reversible Defect,Yes,No,Moderate,27.7,No,No,Very Good,Black,East,1
+444,75,Male,Non-anginal Pain,146,340,No,LV Hypertrophy,77,No,1.1,Downsloping,0,Fixed Defect,No,No,Low,31.4,No,No,Good,White,North,1
+445,63,Male,Non-anginal Pain,180,139,No,ST-T Abnormality,83,No,3.7,Flat,2,Normal,No,No,Moderate,25.5,No,No,Good,Asian,North,0
+446,68,Male,Non-anginal Pain,144,340,No,LV Hypertrophy,190,Yes,2.6,Flat,0,Normal,No,No,Moderate,19.8,No,No,Poor,Hispanic,North,0
+447,44,Male,Atypical Angina,96,528,No,LV Hypertrophy,136,No,2.8,Flat,0,Fixed Defect,No,No,Low,30.0,No,No,Fair,Hispanic,East,0
+448,41,Female,Typical Angina,135,253,No,ST-T Abnormality,74,No,1.6,Upsloping,3,Normal,No,No,Low,25.0,Yes,No,Very Good,Hispanic,East,0
+449,70,Male,Asymptomatic,191,435,No,LV Hypertrophy,158,No,5.1,Flat,3,Fixed Defect,No,Yes,Low,31.1,No,No,Excellent,White,North,1
+450,58,Male,Typical Angina,125,373,No,LV Hypertrophy,87,Yes,3.0,Upsloping,1,Fixed Defect,No,No,Moderate,29.3,No,No,Good,Black,East,1
+451,47,Female,Typical Angina,144,529,No,Normal,122,No,3.4,Downsloping,1,Fixed Defect,Yes,No,Low,30.0,No,No,Fair,White,North,1
+452,45,Female,Asymptomatic,178,154,No,Normal,139,No,1.9,Upsloping,3,Fixed Defect,No,No,Moderate,35.5,No,No,Poor,Other,East,0
+453,47,Male,Asymptomatic,139,405,No,Normal,91,No,1.1,Upsloping,2,Fixed Defect,Yes,No,High,27.1,No,No,Fair,Black,South,0
+454,56,Male,Atypical Angina,114,463,No,Normal,94,No,0.5,Flat,0,Reversible Defect,Yes,No,Low,31.8,No,No,Very Good,Asian,East,1
+455,54,Male,Atypical Angina,137,444,No,LV Hypertrophy,74,No,4.4,Downsloping,2,Fixed Defect,Yes,Yes,High,24.4,No,No,Fair,Hispanic,East,1
+456,65,Female,Atypical Angina,104,327,No,ST-T Abnormality,73,No,1.2,Downsloping,2,Reversible Defect,No,No,Moderate,28.2,No,No,Very Good,Black,East,0
+457,54,Male,Atypical Angina,196,486,Yes,LV Hypertrophy,138,No,4.3,Flat,3,Fixed Defect,No,No,Low,24.0,Yes,No,Good,Black,North,1
+458,51,Male,Atypical Angina,161,182,No,LV Hypertrophy,171,Yes,2.4,Downsloping,1,Normal,No,No,Moderate,27.9,No,No,Good,Hispanic,North,1
+459,37,Female,Asymptomatic,94,517,No,LV Hypertrophy,124,Yes,2.6,Downsloping,0,Reversible Defect,No,No,Moderate,27.5,No,No,Very Good,Asian,South,0
+460,40,Male,Typical Angina,185,343,Yes,ST-T Abnormality,105,No,2.9,Downsloping,1,Normal,Yes,No,Moderate,17.8,No,No,Excellent,White,South,0
+461,29,Female,Atypical Angina,156,187,Yes,Normal,126,Yes,2.3,Flat,2,Fixed Defect,No,Yes,Low,23.6,No,No,Good,White,West,0
+462,29,Female,Atypical Angina,117,282,Yes,LV Hypertrophy,178,No,0.6,Downsloping,2,Fixed Defect,No,No,Low,26.9,No,No,Excellent,Black,South,0
+463,75,Male,Typical Angina,192,327,No,LV Hypertrophy,110,No,1.9,Upsloping,1,Normal,Yes,No,Moderate,17.0,No,No,Very Good,Hispanic,North,0
+464,62,Female,Atypical Angina,106,142,No,Normal,138,Yes,4.1,Upsloping,1,Fixed Defect,No,No,Moderate,25.6,Yes,No,Very Good,Other,South,0
+465,60,Male,Typical Angina,191,447,No,LV Hypertrophy,116,No,4.1,Downsloping,3,Normal,No,No,Moderate,30.0,No,No,Good,Asian,South,0
+466,76,Female,Typical Angina,104,131,No,ST-T Abnormality,148,No,1.8,Flat,1,Fixed Defect,No,No,Low,31.2,No,No,Excellent,White,East,0
+467,53,Male,Asymptomatic,193,183,Yes,LV Hypertrophy,76,No,2.9,Flat,1,Fixed Defect,No,No,High,22.9,No,No,Very Good,Asian,South,0
+468,68,Male,Non-anginal Pain,144,450,No,LV Hypertrophy,87,No,1.2,Flat,3,Reversible Defect,No,No,High,31.5,No,No,Good,Asian,West,1
+469,73,Male,Asymptomatic,110,537,No,Normal,169,No,1.3,Downsloping,1,Normal,No,Yes,Low,30.8,No,No,Very Good,Asian,East,1
+470,29,Female,Non-anginal Pain,192,443,No,LV Hypertrophy,151,No,0.1,Downsloping,2,Fixed Defect,Yes,No,Low,17.4,No,Yes,Fair,Hispanic,North,1
+471,44,Female,Non-anginal Pain,175,294,Yes,LV Hypertrophy,72,No,5.6,Upsloping,1,Normal,No,No,High,26.5,No,No,Fair,Hispanic,West,0
+472,67,Male,Non-anginal Pain,197,207,No,ST-T Abnormality,147,No,1.3,Flat,0,Reversible Defect,Yes,Yes,High,26.9,No,No,Good,Hispanic,North,1
+473,33,Female,Atypical Angina,179,550,No,Normal,136,Yes,1.4,Upsloping,2,Normal,No,Yes,Moderate,32.1,No,No,Very Good,Black,West,1
+474,50,Male,Asymptomatic,117,558,No,Normal,122,Yes,1.7,Upsloping,3,Reversible Defect,No,No,High,27.1,No,No,Good,Hispanic,East,0
+475,57,Male,Non-anginal Pain,112,344,Yes,ST-T Abnormality,162,No,0.8,Flat,2,Normal,No,Yes,Moderate,31.6,Yes,No,Poor,Black,West,0
+476,31,Male,Typical Angina,130,302,No,LV Hypertrophy,92,Yes,4.0,Downsloping,3,Normal,No,Yes,Low,22.9,Yes,No,Good,White,West,0
+477,40,Male,Atypical Angina,196,329,No,Normal,181,Yes,0.5,Downsloping,0,Reversible Defect,No,No,Moderate,19.6,Yes,Yes,Good,White,South,1
+478,54,Male,Asymptomatic,178,196,No,Normal,177,No,0.8,Upsloping,0,Fixed Defect,No,No,Moderate,23.4,Yes,No,Fair,White,North,0
+479,44,Female,Non-anginal Pain,101,512,No,LV Hypertrophy,137,Yes,4.0,Upsloping,2,Fixed Defect,No,No,High,32.3,Yes,No,Fair,White,East,1
+480,65,Male,Typical Angina,121,391,No,LV Hypertrophy,139,No,2.1,Upsloping,1,Fixed Defect,No,Yes,Low,29.7,No,No,Very Good,White,West,1
+481,50,Female,Asymptomatic,98,223,No,Normal,154,No,4.4,Upsloping,2,Normal,No,Yes,Moderate,35.3,Yes,No,Good,Hispanic,North,0
+482,57,Male,Asymptomatic,110,470,No,LV Hypertrophy,173,No,3.5,Flat,2,Normal,Yes,No,Moderate,20.2,No,No,Good,Other,North,1
+483,42,Female,Atypical Angina,194,416,Yes,Normal,109,No,1.6,Upsloping,0,Fixed Defect,No,Yes,Low,30.2,No,No,Very Good,Hispanic,South,0
+484,56,Female,Asymptomatic,129,333,No,LV Hypertrophy,83,Yes,4.0,Upsloping,3,Normal,No,No,Low,29.0,No,No,Excellent,Other,North,1
+485,33,Male,Atypical Angina,112,127,No,LV Hypertrophy,111,No,0.7,Downsloping,2,Normal,Yes,Yes,High,24.9,Yes,No,Very Good,Hispanic,East,0
+486,75,Female,Non-anginal Pain,157,249,No,ST-T Abnormality,127,No,3.3,Downsloping,1,Fixed Defect,No,No,Moderate,29.1,No,No,Fair,White,South,0
+487,77,Male,Atypical Angina,184,405,No,LV Hypertrophy,82,No,2.7,Downsloping,0,Reversible Defect,No,No,Moderate,26.6,No,Yes,Fair,Asian,West,1
+488,58,Female,Typical Angina,191,199,No,ST-T Abnormality,83,No,1.7,Flat,2,Normal,No,Yes,High,27.8,Yes,Yes,Good,Other,East,0
+489,74,Male,Atypical Angina,104,291,Yes,LV Hypertrophy,190,Yes,3.7,Flat,2,Normal,No,No,Low,28.7,No,No,Fair,Asian,East,1
+490,33,Female,Typical Angina,147,147,No,Normal,167,No,5.4,Downsloping,1,Normal,No,No,High,29.9,No,Yes,Very Good,White,East,0
+491,40,Male,Atypical Angina,138,279,Yes,Normal,127,Yes,6.2,Downsloping,2,Normal,No,No,Moderate,26.3,No,No,Good,Other,South,0
+492,44,Male,Asymptomatic,140,552,No,LV Hypertrophy,110,No,3.8,Upsloping,2,Reversible Defect,No,No,Moderate,33.1,No,Yes,Very Good,Asian,North,1
+493,54,Female,Non-anginal Pain,105,564,No,LV Hypertrophy,188,No,2.5,Upsloping,2,Fixed Defect,Yes,No,Moderate,25.1,No,No,Very Good,Hispanic,East,0
+494,54,Male,Typical Angina,114,420,No,Normal,150,Yes,1.4,Flat,2,Normal,Yes,No,High,33.5,No,No,Good,White,North,1
+495,76,Male,Atypical Angina,104,344,No,LV Hypertrophy,198,No,1.6,Flat,1,Fixed Defect,No,No,Low,21.5,No,No,Excellent,Hispanic,North,0
+496,49,Male,Atypical Angina,196,282,No,ST-T Abnormality,105,Yes,3.0,Upsloping,2,Normal,No,Yes,Low,22.1,Yes,No,Fair,Hispanic,East,1
+497,67,Male,Atypical Angina,185,355,No,ST-T Abnormality,73,No,2.3,Downsloping,2,Reversible Defect,Yes,Yes,Low,22.3,No,No,Poor,White,North,1
+498,64,Male,Asymptomatic,98,145,No,ST-T Abnormality,190,No,5.7,Upsloping,2,Fixed Defect,No,No,Low,29.8,Yes,No,Poor,Other,South,0
+499,61,Male,Asymptomatic,174,166,No,ST-T Abnormality,75,Yes,2.3,Flat,0,Reversible Defect,Yes,No,Moderate,22.8,Yes,No,Poor,Black,South,1
+500,58,Male,Typical Angina,149,563,No,ST-T Abnormality,81,No,2.3,Flat,1,Normal,No,No,High,32.0,No,No,Fair,Black,West,1
+501,65,Male,Typical Angina,113,273,No,LV Hypertrophy,196,Yes,2.4,Upsloping,0,Reversible Defect,Yes,No,High,23.9,No,No,Excellent,White,North,1
+502,51,Female,Asymptomatic,134,233,No,LV Hypertrophy,141,No,5.2,Upsloping,0,Reversible Defect,Yes,No,Low,27.6,Yes,Yes,Very Good,Black,North,1
+503,38,Male,Typical Angina,139,528,No,ST-T Abnormality,187,Yes,4.0,Upsloping,1,Normal,Yes,No,Moderate,28.6,No,Yes,Good,Asian,West,1
+504,33,Male,Non-anginal Pain,105,209,No,LV Hypertrophy,176,No,3.8,Flat,0,Normal,No,No,Moderate,21.9,No,No,Excellent,Other,South,0
+505,64,Male,Non-anginal Pain,163,492,No,LV Hypertrophy,186,No,2.1,Downsloping,0,Fixed Defect,No,No,Low,20.4,No,No,Poor,Hispanic,West,0
+506,62,Male,Asymptomatic,110,447,Yes,ST-T Abnormality,137,No,5.1,Upsloping,0,Normal,Yes,No,High,27.1,Yes,No,Fair,Hispanic,West,1
+507,59,Female,Typical Angina,112,539,No,LV Hypertrophy,101,No,0.2,Flat,1,Fixed Defect,No,No,High,24.9,No,No,Fair,White,West,0
+508,38,Male,Atypical Angina,119,434,No,LV Hypertrophy,145,No,5.4,Flat,2,Reversible Defect,Yes,Yes,High,28.0,No,No,Good,Hispanic,North,1
+509,47,Male,Non-anginal Pain,141,415,No,LV Hypertrophy,141,No,3.2,Flat,3,Reversible Defect,No,Yes,Low,20.6,No,No,Very Good,Asian,North,0
+510,60,Female,Asymptomatic,145,531,No,ST-T Abnormality,136,No,2.5,Upsloping,3,Fixed Defect,No,No,Moderate,24.6,Yes,No,Excellent,Asian,North,0
+511,29,Female,Typical Angina,189,448,No,LV Hypertrophy,140,No,3.1,Upsloping,1,Normal,No,No,Low,25.3,No,No,Excellent,White,North,0
+512,33,Male,Asymptomatic,163,259,Yes,Normal,111,No,4.1,Downsloping,3,Normal,No,No,Low,16.3,No,No,Excellent,Hispanic,East,0
+513,73,Female,Atypical Angina,148,332,No,Normal,90,Yes,0.1,Flat,1,Reversible Defect,Yes,Yes,Moderate,30.0,No,No,Very Good,Black,West,1
+514,32,Female,Non-anginal Pain,193,408,No,ST-T Abnormality,109,No,5.4,Upsloping,1,Fixed Defect,No,No,High,23.0,No,No,Very Good,Black,West,0
+515,44,Male,Asymptomatic,195,391,No,Normal,115,Yes,2.8,Flat,3,Reversible Defect,No,No,High,32.0,Yes,No,Very Good,Other,North,1
+516,52,Female,Asymptomatic,168,198,No,ST-T Abnormality,140,No,2.1,Flat,0,Reversible Defect,No,No,High,23.2,No,No,Good,White,South,0
+517,44,Female,Asymptomatic,126,477,No,Normal,195,No,0.9,Downsloping,2,Normal,Yes,Yes,High,23.9,Yes,No,Fair,Other,East,0
+518,30,Male,Atypical Angina,155,173,No,Normal,161,No,2.7,Upsloping,3,Fixed Defect,No,No,Low,21.0,No,No,Poor,Black,East,0
+519,77,Male,Asymptomatic,181,451,No,Normal,140,Yes,3.1,Upsloping,3,Reversible Defect,No,Yes,Moderate,30.6,No,No,Very Good,Black,South,1
+520,56,Male,Atypical Angina,116,358,No,ST-T Abnormality,200,Yes,2.5,Flat,3,Normal,No,No,Low,27.8,No,No,Fair,Black,North,1
+521,60,Female,Atypical Angina,108,225,No,ST-T Abnormality,154,No,4.2,Flat,3,Reversible Defect,Yes,No,Low,31.6,No,No,Very Good,Other,East,0
+522,55,Female,Atypical Angina,120,184,No,LV Hypertrophy,159,No,2.6,Downsloping,1,Reversible Defect,No,Yes,Moderate,25.2,Yes,No,Poor,White,East,0
+523,48,Male,Non-anginal Pain,168,383,No,ST-T Abnormality,149,No,6.0,Downsloping,1,Normal,No,No,Moderate,25.8,No,No,Very Good,Asian,West,0
+524,52,Male,Non-anginal Pain,157,538,No,Normal,183,No,3.7,Downsloping,2,Normal,No,Yes,Moderate,19.3,No,No,Fair,Asian,West,1
+525,40,Male,Asymptomatic,174,190,Yes,Normal,163,No,5.0,Downsloping,2,Fixed Defect,Yes,No,Low,23.5,Yes,No,Good,Black,North,0
+526,63,Male,Asymptomatic,144,208,No,ST-T Abnormality,142,No,0.7,Downsloping,3,Reversible Defect,No,No,Low,26.7,No,No,Poor,White,North,0
+527,61,Male,Non-anginal Pain,146,279,No,ST-T Abnormality,119,Yes,2.5,Downsloping,3,Fixed Defect,No,No,Low,27.5,Yes,No,Fair,White,West,1
+528,61,Male,Typical Angina,171,391,No,ST-T Abnormality,122,No,2.1,Flat,3,Normal,No,No,Low,33.3,No,No,Excellent,Hispanic,West,1
+529,71,Female,Non-anginal Pain,184,434,No,LV Hypertrophy,103,Yes,3.5,Downsloping,2,Normal,Yes,No,Low,18.6,No,No,Excellent,Hispanic,West,1
+530,65,Male,Atypical Angina,175,204,No,Normal,92,No,5.3,Flat,3,Reversible Defect,Yes,No,Moderate,26.9,Yes,No,Excellent,Other,South,0
+531,40,Female,Non-anginal Pain,185,440,Yes,LV Hypertrophy,184,Yes,0.5,Flat,0,Fixed Defect,No,No,High,24.5,No,No,Good,Hispanic,East,0
+532,31,Male,Atypical Angina,144,275,No,LV Hypertrophy,88,No,0.4,Upsloping,2,Fixed Defect,No,Yes,Moderate,26.3,No,No,Very Good,Other,North,0
+533,29,Male,Asymptomatic,140,560,No,Normal,188,Yes,5.3,Flat,0,Reversible Defect,No,No,Moderate,26.4,No,No,Very Good,Asian,North,0
+534,61,Male,Typical Angina,97,173,No,Normal,187,Yes,1.3,Flat,3,Reversible Defect,Yes,No,Low,25.2,No,No,Very Good,Black,South,1
+535,68,Male,Asymptomatic,100,530,No,ST-T Abnormality,107,No,4.1,Downsloping,1,Fixed Defect,No,No,High,21.5,No,No,Good,White,West,0
+536,38,Female,Atypical Angina,128,504,No,ST-T Abnormality,134,Yes,3.4,Flat,0,Normal,No,No,Low,20.7,No,No,Excellent,Asian,East,0
+537,71,Male,Atypical Angina,141,373,Yes,LV Hypertrophy,149,Yes,5.2,Downsloping,2,Normal,No,No,High,24.9,No,No,Very Good,Asian,West,1
+538,72,Female,Atypical Angina,166,403,No,ST-T Abnormality,193,No,0.8,Downsloping,0,Reversible Defect,No,No,High,20.3,No,No,Good,Other,North,0
+539,57,Male,Typical Angina,165,481,No,ST-T Abnormality,114,Yes,0.8,Downsloping,2,Fixed Defect,No,No,High,25.5,No,No,Good,Black,South,1
+540,41,Female,Non-anginal Pain,138,223,No,Normal,152,Yes,3.5,Upsloping,3,Fixed Defect,No,No,Low,25.0,Yes,No,Fair,Other,East,0
+541,40,Male,Asymptomatic,174,539,No,Normal,157,No,5.9,Downsloping,0,Fixed Defect,No,Yes,Moderate,16.2,No,No,Very Good,Asian,East,0
+542,59,Female,Asymptomatic,174,150,Yes,ST-T Abnormality,86,No,2.6,Flat,1,Normal,Yes,No,Low,33.7,No,No,Excellent,White,East,0
+543,74,Female,Non-anginal Pain,190,409,No,Normal,124,No,2.0,Downsloping,0,Normal,Yes,No,Low,26.3,No,No,Poor,Hispanic,East,1
+544,30,Male,Asymptomatic,189,494,Yes,ST-T Abnormality,172,No,3.8,Downsloping,1,Fixed Defect,No,No,Low,16.3,No,No,Good,Other,South,1
+545,63,Male,Typical Angina,165,426,No,Normal,168,No,5.8,Downsloping,2,Fixed Defect,No,No,High,27.0,No,No,Fair,Asian,North,1
+546,51,Female,Asymptomatic,112,193,No,Normal,72,Yes,5.2,Upsloping,3,Reversible Defect,Yes,Yes,High,25.2,No,No,Poor,Hispanic,East,0
+547,45,Female,Atypical Angina,156,132,No,Normal,164,No,6.2,Flat,3,Reversible Defect,Yes,No,Low,20.7,No,No,Good,Hispanic,East,0
+548,54,Male,Non-anginal Pain,131,430,No,Normal,129,No,0.1,Upsloping,1,Fixed Defect,No,No,Moderate,27.2,No,No,Fair,Asian,North,0
+549,36,Female,Typical Angina,160,262,No,ST-T Abnormality,139,No,0.7,Flat,2,Fixed Defect,No,No,High,22.2,No,No,Very Good,Black,West,0
+550,57,Female,Non-anginal Pain,152,289,Yes,LV Hypertrophy,189,No,3.8,Upsloping,3,Normal,No,Yes,Moderate,26.8,No,Yes,Fair,Asian,East,0
+551,54,Female,Typical Angina,162,208,No,Normal,162,Yes,5.1,Flat,2,Fixed Defect,No,Yes,Low,23.2,Yes,No,Good,White,East,1
+552,38,Female,Atypical Angina,106,510,No,ST-T Abnormality,115,No,1.8,Upsloping,1,Reversible Defect,No,No,Moderate,22.4,No,No,Very Good,Hispanic,West,0
+553,54,Female,Non-anginal Pain,140,263,Yes,ST-T Abnormality,94,No,1.5,Downsloping,1,Normal,No,No,Moderate,25.9,No,No,Excellent,White,North,0
+554,62,Male,Asymptomatic,154,545,No,Normal,161,No,4.9,Upsloping,0,Reversible Defect,Yes,No,Moderate,19.5,No,No,Fair,Other,North,1
+555,69,Male,Typical Angina,124,198,No,LV Hypertrophy,164,Yes,0.3,Upsloping,3,Reversible Defect,No,Yes,Moderate,25.7,Yes,Yes,Poor,Hispanic,East,1
+556,35,Male,Non-anginal Pain,173,362,No,Normal,128,Yes,2.3,Downsloping,3,Normal,No,No,Moderate,28.6,Yes,No,Very Good,Black,North,1
+557,32,Female,Asymptomatic,189,171,No,ST-T Abnormality,198,Yes,3.1,Downsloping,0,Reversible Defect,Yes,Yes,Low,31.1,No,No,Very Good,Asian,West,1
+558,73,Female,Non-anginal Pain,115,231,No,LV Hypertrophy,77,No,3.5,Flat,1,Fixed Defect,No,Yes,Low,30.4,No,No,Excellent,Other,South,1
+559,39,Male,Non-anginal Pain,186,541,No,ST-T Abnormality,117,Yes,4.5,Flat,1,Reversible Defect,No,No,Low,31.4,No,No,Fair,White,West,1
+560,57,Female,Non-anginal Pain,179,413,No,Normal,123,Yes,2.2,Flat,1,Normal,No,No,Moderate,24.2,No,No,Poor,Other,West,0
+561,64,Female,Typical Angina,136,387,No,LV Hypertrophy,108,No,3.8,Upsloping,1,Normal,No,Yes,Low,21.9,No,No,Excellent,Black,South,0
+562,53,Male,Asymptomatic,160,301,No,ST-T Abnormality,123,Yes,3.6,Flat,2,Normal,No,No,High,29.3,No,No,Fair,Asian,West,0
+563,49,Male,Atypical Angina,147,291,No,ST-T Abnormality,118,No,3.4,Upsloping,3,Reversible Defect,No,No,Moderate,23.9,No,No,Poor,Other,East,0
+564,64,Male,Typical Angina,103,270,No,ST-T Abnormality,165,No,4.0,Upsloping,3,Fixed Defect,No,Yes,Moderate,26.0,No,No,Poor,White,East,1
+565,38,Male,Typical Angina,135,455,No,Normal,134,No,1.6,Flat,1,Normal,Yes,Yes,High,29.0,Yes,No,Good,Other,North,1
+566,65,Male,Typical Angina,157,495,No,LV Hypertrophy,163,No,0.5,Flat,1,Fixed Defect,No,No,High,34.1,No,No,Poor,Asian,North,1
+567,37,Male,Atypical Angina,114,408,No,Normal,195,No,0.7,Upsloping,1,Normal,No,Yes,High,28.1,No,No,Fair,Other,West,0
+568,52,Male,Asymptomatic,173,179,No,Normal,109,No,1.4,Downsloping,3,Fixed Defect,Yes,No,Moderate,26.8,No,No,Excellent,White,East,0
+569,63,Male,Asymptomatic,169,303,No,Normal,74,Yes,3.1,Downsloping,3,Fixed Defect,Yes,Yes,Low,21.5,Yes,No,Excellent,Asian,East,1
+570,77,Male,Asymptomatic,159,544,No,LV Hypertrophy,196,Yes,5.2,Upsloping,1,Fixed Defect,No,No,High,30.7,No,No,Good,Black,South,1
+571,63,Male,Non-anginal Pain,134,369,No,Normal,73,Yes,4.3,Flat,2,Normal,No,Yes,High,27.6,No,No,Fair,Black,North,1
+572,76,Female,Non-anginal Pain,117,466,No,Normal,134,No,4.9,Upsloping,0,Reversible Defect,Yes,No,High,24.6,No,No,Poor,Hispanic,East,1
+573,64,Male,Non-anginal Pain,128,252,Yes,Normal,99,No,2.2,Upsloping,0,Reversible Defect,Yes,No,Moderate,24.2,Yes,No,Good,Other,West,1
+574,46,Female,Atypical Angina,149,534,No,Normal,186,No,2.5,Flat,0,Reversible Defect,No,No,Moderate,24.4,No,No,Very Good,White,East,0
+575,77,Female,Non-anginal Pain,123,537,No,ST-T Abnormality,81,No,2.4,Downsloping,3,Fixed Defect,Yes,No,Low,26.2,Yes,No,Fair,Other,North,1
+576,67,Male,Atypical Angina,150,492,No,Normal,167,Yes,1.2,Upsloping,3,Normal,No,No,Moderate,20.2,No,No,Good,Asian,West,0
+577,60,Male,Asymptomatic,187,396,No,ST-T Abnormality,172,No,0.4,Downsloping,0,Fixed Defect,No,No,Low,30.9,No,No,Excellent,Hispanic,North,1
+578,52,Male,Non-anginal Pain,140,257,No,Normal,91,No,3.7,Downsloping,0,Normal,No,Yes,Low,30.1,Yes,No,Good,White,East,1
+579,51,Male,Non-anginal Pain,128,218,No,LV Hypertrophy,109,Yes,6.1,Flat,2,Fixed Defect,No,No,Moderate,25.3,No,Yes,Very Good,Other,East,1
+580,60,Male,Typical Angina,112,504,No,ST-T Abnormality,172,No,1.0,Upsloping,3,Normal,Yes,No,Moderate,24.4,Yes,No,Fair,White,East,1
+581,65,Male,Atypical Angina,101,198,No,ST-T Abnormality,116,Yes,0.3,Upsloping,3,Normal,No,No,Low,25.9,No,No,Good,Asian,North,1
+582,40,Male,Asymptomatic,119,536,No,ST-T Abnormality,136,No,4.8,Downsloping,0,Normal,Yes,No,High,26.6,No,No,Poor,Hispanic,West,0
+583,77,Male,Typical Angina,197,535,No,ST-T Abnormality,161,No,1.6,Downsloping,2,Fixed Defect,No,No,High,24.8,No,No,Fair,White,East,0
+584,41,Male,Typical Angina,164,528,Yes,LV Hypertrophy,181,Yes,5.1,Flat,2,Reversible Defect,No,No,Moderate,30.0,No,No,Good,Asian,East,0
+585,51,Male,Asymptomatic,123,373,No,Normal,152,No,4.4,Downsloping,0,Fixed Defect,Yes,No,Moderate,20.3,No,No,Good,Black,East,1
+586,53,Male,Typical Angina,100,473,No,ST-T Abnormality,193,No,5.9,Flat,0,Fixed Defect,No,No,High,23.2,Yes,No,Fair,White,South,1
+587,63,Male,Atypical Angina,160,398,No,LV Hypertrophy,169,No,2.5,Upsloping,3,Normal,No,No,Low,29.1,No,No,Excellent,Hispanic,South,0
+588,69,Male,Atypical Angina,158,168,No,ST-T Abnormality,105,No,4.1,Flat,0,Normal,No,No,Moderate,27.3,No,No,Poor,White,West,0
+589,58,Female,Non-anginal Pain,129,502,No,Normal,173,Yes,2.9,Downsloping,1,Reversible Defect,No,No,Low,23.3,No,No,Fair,White,North,0
+590,45,Male,Typical Angina,118,166,Yes,ST-T Abnormality,199,No,3.9,Upsloping,2,Reversible Defect,No,No,Low,27.6,Yes,No,Poor,Asian,East,0
+591,77,Male,Non-anginal Pain,130,295,No,LV Hypertrophy,95,No,2.8,Flat,0,Normal,No,Yes,Moderate,22.8,No,No,Poor,Other,East,0
+592,48,Female,Typical Angina,94,559,No,Normal,113,No,1.2,Upsloping,1,Reversible Defect,No,No,Moderate,24.8,No,No,Fair,Other,North,1
+593,76,Male,Atypical Angina,108,337,No,LV Hypertrophy,154,Yes,3.1,Flat,2,Reversible Defect,No,No,Low,30.2,No,No,Good,White,North,1
+594,53,Female,Atypical Angina,130,293,No,Normal,121,No,3.3,Downsloping,1,Normal,No,No,Low,29.7,No,No,Excellent,Hispanic,West,0
+595,50,Female,Atypical Angina,106,164,No,Normal,200,No,5.0,Downsloping,1,Fixed Defect,Yes,No,Moderate,27.2,No,No,Poor,Hispanic,North,0
+596,41,Male,Typical Angina,197,494,No,Normal,196,Yes,4.6,Upsloping,0,Reversible Defect,No,No,Moderate,21.8,No,No,Poor,Asian,East,0
+597,47,Female,Atypical Angina,101,370,No,ST-T Abnormality,139,Yes,4.1,Upsloping,2,Normal,No,No,Moderate,24.5,Yes,No,Good,White,West,0
+598,77,Female,Typical Angina,98,276,Yes,LV Hypertrophy,79,Yes,0.7,Upsloping,1,Reversible Defect,No,No,Low,26.4,No,Yes,Fair,White,South,1
+599,64,Female,Non-anginal Pain,153,236,No,LV Hypertrophy,72,No,4.5,Flat,3,Reversible Defect,No,Yes,Moderate,31.8,Yes,No,Excellent,Other,West,0
+600,40,Female,Typical Angina,166,561,No,LV Hypertrophy,80,Yes,3.1,Downsloping,2,Normal,No,No,Low,18.9,No,No,Poor,Asian,West,1
+601,69,Female,Non-anginal Pain,94,172,Yes,Normal,184,No,5.5,Upsloping,3,Reversible Defect,No,No,Low,22.5,No,Yes,Poor,Black,West,0
+602,47,Male,Typical Angina,129,188,No,ST-T Abnormality,146,No,5.7,Upsloping,0,Reversible Defect,No,No,Moderate,30.5,No,No,Fair,Hispanic,North,0
+603,40,Male,Non-anginal Pain,128,350,No,Normal,155,No,0.3,Upsloping,3,Reversible Defect,Yes,No,Moderate,31.4,No,No,Good,Hispanic,East,0
+604,37,Male,Atypical Angina,159,491,No,LV Hypertrophy,119,No,5.1,Flat,2,Fixed Defect,Yes,No,Low,25.7,No,No,Very Good,White,North,0
+605,35,Male,Non-anginal Pain,156,194,No,ST-T Abnormality,140,No,0.2,Upsloping,1,Fixed Defect,No,No,Low,32.2,No,No,Good,Asian,East,0
+606,56,Male,Atypical Angina,197,424,No,ST-T Abnormality,201,No,2.3,Upsloping,1,Reversible Defect,No,No,Moderate,23.1,No,No,Poor,Black,North,0
+607,42,Male,Atypical Angina,116,557,No,ST-T Abnormality,160,Yes,3.4,Flat,2,Normal,No,Yes,Low,20.0,No,No,Poor,Hispanic,West,0
+608,59,Male,Non-anginal Pain,102,415,No,LV Hypertrophy,96,Yes,0.9,Flat,1,Reversible Defect,Yes,No,Low,29.2,No,No,Excellent,Asian,East,1
+609,47,Female,Typical Angina,127,421,Yes,ST-T Abnormality,142,No,4.6,Upsloping,3,Reversible Defect,Yes,No,Moderate,31.2,No,No,Good,Black,North,0
+610,75,Female,Typical Angina,139,328,No,ST-T Abnormality,75,Yes,0.1,Upsloping,1,Fixed Defect,Yes,Yes,Low,31.1,No,No,Very Good,White,West,1
+611,44,Male,Asymptomatic,171,186,No,Normal,85,No,1.0,Flat,1,Fixed Defect,No,No,Low,22.5,No,Yes,Excellent,Other,South,0
+612,33,Male,Typical Angina,97,559,No,Normal,193,No,3.6,Downsloping,3,Fixed Defect,No,No,High,26.8,No,No,Very Good,Hispanic,North,0
+613,63,Female,Asymptomatic,123,443,Yes,ST-T Abnormality,71,Yes,4.4,Flat,3,Reversible Defect,Yes,No,Moderate,29.4,No,No,Excellent,Hispanic,North,0
+614,40,Male,Typical Angina,188,439,No,ST-T Abnormality,73,No,5.7,Downsloping,3,Reversible Defect,No,No,Moderate,27.2,No,No,Good,Black,South,0
+615,53,Female,Typical Angina,195,286,No,Normal,117,No,4.4,Upsloping,0,Normal,No,No,Moderate,31.8,No,Yes,Poor,Other,North,0
+616,49,Male,Atypical Angina,168,456,No,Normal,165,No,4.2,Upsloping,3,Reversible Defect,Yes,No,Moderate,24.4,Yes,No,Very Good,Asian,South,1
+617,64,Male,Asymptomatic,192,141,No,Normal,83,No,2.4,Downsloping,3,Reversible Defect,No,No,High,25.7,No,No,Good,White,East,0
+618,51,Female,Typical Angina,165,463,No,LV Hypertrophy,190,No,0.0,Flat,0,Fixed Defect,No,No,Moderate,26.9,No,No,Very Good,Asian,South,0
+619,44,Male,Asymptomatic,96,219,No,LV Hypertrophy,125,Yes,0.7,Upsloping,1,Fixed Defect,Yes,No,Low,29.3,No,No,Good,Black,West,1
+620,67,Female,Atypical Angina,107,429,No,Normal,136,No,3.3,Downsloping,3,Fixed Defect,Yes,Yes,Moderate,25.2,No,No,Excellent,Hispanic,South,0
+621,73,Female,Atypical Angina,153,263,No,ST-T Abnormality,160,No,4.2,Flat,2,Fixed Defect,No,No,Moderate,29.7,No,No,Good,Hispanic,East,0
+622,70,Male,Asymptomatic,170,463,No,Normal,132,No,2.6,Downsloping,3,Fixed Defect,No,No,Moderate,32.4,No,No,Excellent,Asian,South,0
+623,67,Male,Atypical Angina,138,163,Yes,LV Hypertrophy,172,Yes,4.5,Flat,3,Normal,No,No,Moderate,23.9,No,No,Poor,White,South,1
+624,42,Female,Non-anginal Pain,189,252,Yes,ST-T Abnormality,78,Yes,3.2,Flat,0,Normal,No,No,High,25.3,No,No,Excellent,Black,East,0
+625,59,Male,Non-anginal Pain,127,400,No,LV Hypertrophy,167,No,0.5,Flat,2,Normal,Yes,No,Moderate,29.9,No,No,Fair,White,North,1
+626,33,Female,Atypical Angina,138,289,No,ST-T Abnormality,187,No,1.2,Flat,1,Fixed Defect,No,No,Low,33.7,Yes,No,Poor,Black,North,1
+627,63,Male,Non-anginal Pain,154,444,No,LV Hypertrophy,134,Yes,5.2,Downsloping,1,Fixed Defect,No,No,Low,28.5,Yes,No,Good,White,West,1
+628,51,Male,Typical Angina,176,202,Yes,ST-T Abnormality,91,No,4.5,Downsloping,2,Fixed Defect,No,Yes,Moderate,22.9,No,Yes,Good,Asian,West,1
+629,57,Male,Asymptomatic,195,299,No,ST-T Abnormality,185,No,5.5,Downsloping,3,Normal,No,No,Low,26.8,No,No,Fair,Other,South,1
+630,71,Male,Typical Angina,109,512,No,ST-T Abnormality,155,No,0.7,Downsloping,0,Fixed Defect,No,No,Low,29.8,Yes,No,Good,Black,North,1
+631,39,Female,Asymptomatic,159,483,Yes,ST-T Abnormality,90,Yes,6.1,Downsloping,2,Normal,No,No,Low,22.7,No,No,Poor,Asian,North,0
+632,46,Female,Atypical Angina,133,446,No,LV Hypertrophy,78,Yes,1.3,Flat,2,Fixed Defect,No,No,Low,21.7,No,No,Poor,Hispanic,South,0
+633,75,Male,Typical Angina,110,501,No,LV Hypertrophy,128,Yes,0.1,Upsloping,1,Reversible Defect,No,No,High,24.6,Yes,No,Excellent,Hispanic,East,1
+634,40,Female,Atypical Angina,127,216,No,ST-T Abnormality,116,No,6.2,Upsloping,0,Normal,Yes,No,Low,28.6,No,No,Very Good,White,North,0
+635,37,Male,Atypical Angina,199,363,No,ST-T Abnormality,101,No,1.7,Downsloping,2,Reversible Defect,No,Yes,Low,20.5,No,No,Good,Hispanic,West,0
+636,38,Male,Asymptomatic,109,389,No,LV Hypertrophy,163,No,4.1,Downsloping,0,Normal,No,Yes,Low,23.2,No,Yes,Fair,Other,South,1
+637,72,Male,Asymptomatic,195,304,Yes,ST-T Abnormality,79,No,1.1,Upsloping,3,Fixed Defect,No,No,Moderate,27.1,Yes,No,Poor,Black,East,0
+638,45,Male,Asymptomatic,153,334,Yes,ST-T Abnormality,85,No,3.6,Flat,1,Fixed Defect,No,No,Low,30.4,Yes,No,Poor,White,West,1
+639,66,Male,Typical Angina,159,198,No,ST-T Abnormality,164,No,5.6,Downsloping,3,Reversible Defect,Yes,No,Moderate,27.2,No,No,Poor,Black,North,0
+640,35,Female,Non-anginal Pain,159,515,Yes,Normal,99,No,2.0,Flat,0,Fixed Defect,Yes,No,Low,27.5,No,No,Very Good,Black,East,0
+641,74,Male,Asymptomatic,183,232,No,ST-T Abnormality,150,Yes,4.2,Upsloping,3,Normal,Yes,No,Moderate,30.0,No,No,Very Good,Asian,West,1
+642,41,Male,Asymptomatic,106,470,No,Normal,106,Yes,1.2,Upsloping,1,Fixed Defect,No,No,High,32.4,No,No,Good,Hispanic,South,1
+643,68,Male,Typical Angina,149,420,No,ST-T Abnormality,154,No,3.9,Downsloping,0,Fixed Defect,No,No,Low,31.9,No,No,Fair,Black,East,1
+644,70,Male,Asymptomatic,124,494,No,LV Hypertrophy,179,No,2.1,Flat,2,Normal,Yes,No,Moderate,17.8,No,No,Very Good,Other,East,1
+645,37,Female,Typical Angina,127,409,No,Normal,188,Yes,1.3,Downsloping,3,Reversible Defect,Yes,No,Moderate,26.4,No,No,Excellent,Other,South,1
+646,55,Male,Atypical Angina,132,478,No,Normal,107,No,1.9,Upsloping,1,Reversible Defect,No,No,Moderate,29.7,No,No,Very Good,Hispanic,North,1
+647,30,Male,Asymptomatic,160,307,No,ST-T Abnormality,156,No,1.1,Flat,2,Fixed Defect,Yes,No,Moderate,32.8,No,No,Poor,Hispanic,North,1
+648,33,Male,Asymptomatic,101,162,No,ST-T Abnormality,141,Yes,5.6,Downsloping,1,Normal,No,No,Moderate,28.6,No,No,Fair,White,East,0
+649,57,Male,Atypical Angina,180,262,No,Normal,163,Yes,2.5,Downsloping,0,Reversible Defect,No,No,Moderate,22.6,No,Yes,Good,White,East,1
+650,65,Male,Atypical Angina,171,463,No,LV Hypertrophy,150,Yes,1.5,Downsloping,0,Reversible Defect,Yes,No,Moderate,23.1,No,No,Very Good,White,East,1
+651,66,Male,Atypical Angina,148,181,No,LV Hypertrophy,172,No,2.8,Upsloping,3,Fixed Defect,Yes,No,Low,23.2,No,No,Poor,Hispanic,West,1
+652,47,Female,Asymptomatic,120,312,No,ST-T Abnormality,84,Yes,2.0,Downsloping,1,Normal,Yes,Yes,Low,27.2,No,No,Excellent,Black,East,1
+653,36,Female,Non-anginal Pain,186,466,No,LV Hypertrophy,187,No,4.6,Flat,1,Reversible Defect,No,No,Moderate,24.1,No,No,Excellent,Asian,North,0
+654,76,Male,Non-anginal Pain,196,383,No,LV Hypertrophy,143,No,6.0,Downsloping,1,Fixed Defect,Yes,No,High,13.8,Yes,No,Good,White,South,1
+655,73,Male,Non-anginal Pain,146,183,No,ST-T Abnormality,161,No,2.7,Upsloping,0,Fixed Defect,No,Yes,High,21.3,Yes,No,Good,Asian,South,0
+656,29,Male,Asymptomatic,132,488,No,LV Hypertrophy,160,Yes,5.3,Downsloping,3,Fixed Defect,No,No,High,24.2,No,No,Very Good,Other,South,1
+657,50,Male,Atypical Angina,158,248,No,ST-T Abnormality,99,No,3.5,Upsloping,1,Fixed Defect,Yes,No,Moderate,20.6,No,No,Good,Hispanic,East,1
+658,45,Male,Asymptomatic,110,313,No,Normal,119,No,1.0,Upsloping,1,Reversible Defect,Yes,No,Moderate,21.1,No,No,Poor,Other,East,0
+659,35,Male,Atypical Angina,198,355,No,ST-T Abnormality,142,No,4.3,Flat,2,Normal,No,No,Moderate,34.2,No,No,Poor,White,South,0
+660,53,Male,Asymptomatic,123,293,Yes,Normal,112,No,3.2,Flat,1,Fixed Defect,No,No,Moderate,26.0,No,No,Poor,Black,West,0
+661,73,Male,Asymptomatic,146,545,No,Normal,112,Yes,4.0,Downsloping,3,Fixed Defect,No,No,Moderate,24.5,Yes,No,Very Good,White,West,1
+662,32,Male,Atypical Angina,106,239,No,LV Hypertrophy,175,No,5.5,Upsloping,2,Reversible Defect,Yes,No,Low,28.7,No,No,Very Good,Asian,West,1
+663,64,Male,Non-anginal Pain,114,377,No,LV Hypertrophy,97,No,2.7,Upsloping,2,Fixed Defect,Yes,No,Low,30.6,No,No,Good,White,West,1
+664,34,Male,Atypical Angina,112,232,No,LV Hypertrophy,128,No,5.6,Flat,2,Fixed Defect,Yes,No,Moderate,35.0,No,No,Very Good,Black,North,0
+665,59,Male,Typical Angina,146,162,No,ST-T Abnormality,116,No,4.7,Flat,0,Normal,No,No,Moderate,32.8,No,No,Poor,Black,South,0
+666,47,Male,Typical Angina,112,460,No,LV Hypertrophy,136,No,3.0,Downsloping,2,Fixed Defect,No,No,Low,27.7,No,No,Fair,Hispanic,North,0
+667,72,Female,Atypical Angina,150,217,No,Normal,95,Yes,3.7,Upsloping,1,Reversible Defect,No,Yes,Low,19.9,No,No,Poor,Hispanic,East,0
+668,67,Male,Asymptomatic,118,143,No,LV Hypertrophy,143,No,2.0,Flat,0,Normal,No,No,High,22.0,No,No,Fair,Black,West,0
+669,55,Female,Typical Angina,179,479,No,LV Hypertrophy,187,No,6.1,Downsloping,0,Reversible Defect,Yes,No,Moderate,24.4,No,Yes,Good,Black,West,1
+670,38,Male,Typical Angina,124,188,No,ST-T Abnormality,199,No,4.1,Upsloping,0,Normal,No,Yes,Moderate,28.0,No,No,Excellent,Asian,South,0
+671,54,Female,Asymptomatic,174,275,Yes,ST-T Abnormality,157,No,0.3,Upsloping,0,Normal,No,No,Moderate,26.4,No,Yes,Very Good,White,West,0
+672,47,Male,Asymptomatic,148,264,Yes,Normal,144,No,2.0,Flat,0,Fixed Defect,No,No,Moderate,20.1,No,No,Very Good,Hispanic,South,0
+673,67,Female,Non-anginal Pain,116,311,No,ST-T Abnormality,195,No,3.9,Downsloping,0,Fixed Defect,No,No,Low,19.4,No,No,Poor,Asian,East,0
+674,31,Female,Asymptomatic,125,310,No,LV Hypertrophy,137,Yes,0.3,Flat,0,Fixed Defect,No,No,Moderate,27.0,No,No,Poor,White,West,0
+675,73,Male,Atypical Angina,155,330,No,ST-T Abnormality,76,No,0.1,Downsloping,2,Reversible Defect,No,Yes,Moderate,26.5,No,No,Fair,Hispanic,West,0
+676,41,Male,Atypical Angina,167,385,Yes,Normal,195,No,2.8,Upsloping,3,Fixed Defect,No,No,Low,25.2,No,No,Very Good,Asian,North,1
+677,56,Male,Non-anginal Pain,103,339,No,LV Hypertrophy,128,No,2.1,Downsloping,1,Fixed Defect,Yes,No,Low,27.9,No,No,Good,Other,South,1
+678,48,Male,Typical Angina,193,381,Yes,Normal,140,No,2.7,Downsloping,1,Normal,No,Yes,Low,31.0,No,No,Poor,Other,South,1
+679,56,Male,Typical Angina,165,260,Yes,ST-T Abnormality,123,No,1.6,Downsloping,2,Fixed Defect,Yes,No,Moderate,27.2,No,No,Very Good,Hispanic,West,0
+680,36,Male,Asymptomatic,147,186,No,ST-T Abnormality,136,Yes,1.0,Downsloping,2,Fixed Defect,No,No,Low,22.2,No,No,Excellent,Asian,North,0
+681,69,Male,Atypical Angina,145,488,No,Normal,128,No,4.3,Downsloping,0,Fixed Defect,Yes,No,Moderate,33.7,No,No,Fair,White,West,1
+682,67,Male,Typical Angina,113,435,Yes,LV Hypertrophy,152,No,3.2,Flat,3,Fixed Defect,No,Yes,Moderate,25.3,No,No,Poor,White,South,0
+683,29,Female,Non-anginal Pain,125,213,Yes,ST-T Abnormality,157,No,1.2,Downsloping,0,Normal,No,No,High,26.2,Yes,No,Poor,Asian,South,0
+684,31,Male,Non-anginal Pain,107,449,No,ST-T Abnormality,72,No,2.0,Downsloping,2,Fixed Defect,No,No,Moderate,23.4,No,No,Good,Other,West,0
+685,41,Female,Atypical Angina,143,332,Yes,LV Hypertrophy,107,No,3.7,Upsloping,0,Normal,Yes,No,Low,21.7,No,No,Poor,Asian,East,0
+686,56,Male,Non-anginal Pain,121,254,No,ST-T Abnormality,173,Yes,0.4,Downsloping,1,Reversible Defect,Yes,No,Moderate,22.0,No,No,Very Good,Other,West,1
+687,77,Male,Non-anginal Pain,146,436,No,Normal,94,No,0.9,Upsloping,1,Fixed Defect,No,No,Moderate,21.1,No,No,Very Good,Other,North,0
+688,53,Male,Atypical Angina,117,128,Yes,ST-T Abnormality,182,Yes,0.5,Flat,0,Fixed Defect,No,No,Low,14.0,No,No,Very Good,White,South,1
+689,61,Male,Asymptomatic,172,547,No,ST-T Abnormality,135,Yes,5.0,Flat,3,Fixed Defect,No,Yes,Moderate,25.4,No,No,Excellent,Hispanic,South,1
+690,66,Female,Asymptomatic,115,367,No,LV Hypertrophy,199,Yes,4.7,Downsloping,0,Normal,No,No,High,30.4,No,No,Excellent,Black,West,1
+691,34,Male,Non-anginal Pain,123,246,No,Normal,187,No,4.7,Flat,0,Fixed Defect,No,No,Low,22.1,No,No,Poor,Asian,East,0
+692,72,Female,Asymptomatic,156,510,No,LV Hypertrophy,186,Yes,4.4,Downsloping,3,Fixed Defect,No,No,Moderate,36.2,No,No,Excellent,Other,South,0
+693,73,Male,Asymptomatic,97,227,No,ST-T Abnormality,175,Yes,4.2,Flat,3,Reversible Defect,No,Yes,High,31.5,Yes,No,Excellent,Asian,West,1
+694,60,Male,Non-anginal Pain,170,163,No,ST-T Abnormality,73,Yes,3.0,Downsloping,3,Normal,No,No,Moderate,25.9,No,No,Good,Hispanic,East,0
+695,73,Male,Asymptomatic,152,466,No,LV Hypertrophy,116,Yes,4.0,Downsloping,1,Normal,No,No,Moderate,21.6,No,No,Excellent,Hispanic,West,0
+696,75,Male,Non-anginal Pain,180,538,No,LV Hypertrophy,125,No,0.2,Upsloping,0,Reversible Defect,Yes,No,Low,19.6,No,No,Fair,Black,West,1
+697,49,Male,Typical Angina,101,258,No,LV Hypertrophy,145,No,3.9,Upsloping,2,Normal,Yes,No,Low,25.5,No,No,Fair,Black,West,1
+698,44,Male,Atypical Angina,175,327,No,Normal,115,No,4.8,Upsloping,3,Fixed Defect,No,No,Moderate,26.3,No,No,Fair,Other,South,0
+699,49,Male,Atypical Angina,105,473,No,ST-T Abnormality,147,No,3.1,Upsloping,3,Fixed Defect,Yes,No,Moderate,25.2,No,No,Poor,Black,East,0
+700,39,Male,Asymptomatic,124,146,No,LV Hypertrophy,94,No,2.2,Downsloping,0,Reversible Defect,No,No,High,30.3,Yes,No,Very Good,Other,North,0
+701,65,Male,Asymptomatic,171,367,No,ST-T Abnormality,105,No,1.7,Flat,2,Normal,No,Yes,Low,32.0,No,No,Good,White,North,1
+702,64,Male,Asymptomatic,127,234,Yes,Normal,94,No,4.0,Downsloping,0,Normal,No,No,Moderate,27.9,No,No,Poor,Other,South,0
+703,63,Male,Atypical Angina,175,428,No,Normal,98,No,4.3,Upsloping,0,Normal,No,No,Low,28.1,No,No,Very Good,Black,South,1
+704,47,Male,Typical Angina,191,209,No,Normal,86,Yes,5.4,Upsloping,3,Reversible Defect,Yes,No,Low,24.7,No,Yes,Good,Asian,West,1
+705,48,Male,Typical Angina,168,208,Yes,Normal,129,Yes,2.1,Flat,3,Fixed Defect,Yes,No,Moderate,26.0,Yes,No,Good,Black,West,1
+706,46,Male,Atypical Angina,198,416,Yes,ST-T Abnormality,85,No,4.8,Upsloping,1,Reversible Defect,No,Yes,Low,27.6,No,No,Good,Hispanic,East,0
+707,75,Male,Typical Angina,169,194,No,Normal,81,No,3.5,Downsloping,2,Fixed Defect,Yes,No,Low,24.7,Yes,No,Fair,Black,West,0
+708,69,Male,Atypical Angina,142,254,No,Normal,149,Yes,5.5,Downsloping,2,Reversible Defect,No,No,Low,28.6,No,No,Fair,White,East,1
+709,77,Male,Typical Angina,172,321,No,LV Hypertrophy,185,Yes,3.3,Downsloping,3,Fixed Defect,No,No,Low,21.8,No,No,Fair,Other,West,1
+710,42,Female,Non-anginal Pain,150,265,No,Normal,138,Yes,3.2,Downsloping,3,Normal,No,Yes,High,23.1,Yes,No,Good,Hispanic,West,1
+711,43,Male,Non-anginal Pain,188,408,No,LV Hypertrophy,113,No,3.6,Downsloping,3,Normal,No,No,Moderate,21.8,Yes,No,Good,Other,North,0
+712,59,Male,Atypical Angina,186,437,No,Normal,139,No,4.6,Flat,2,Normal,No,No,Low,23.3,Yes,No,Fair,Other,South,1
+713,29,Male,Typical Angina,119,359,No,Normal,145,Yes,6.0,Downsloping,1,Reversible Defect,No,No,High,24.9,No,No,Good,Black,East,1
+714,31,Male,Asymptomatic,111,148,No,LV Hypertrophy,173,No,0.5,Upsloping,2,Reversible Defect,Yes,No,Moderate,30.1,No,No,Fair,Asian,North,0
+715,44,Male,Typical Angina,189,278,No,Normal,111,No,0.3,Upsloping,3,Reversible Defect,No,No,High,26.2,No,No,Fair,Hispanic,West,0
+716,51,Male,Non-anginal Pain,179,402,No,ST-T Abnormality,129,No,5.8,Upsloping,3,Normal,No,No,Low,20.9,No,No,Fair,White,North,1
+717,39,Female,Non-anginal Pain,131,186,No,ST-T Abnormality,109,Yes,3.3,Upsloping,1,Fixed Defect,No,No,Moderate,20.4,No,No,Very Good,White,East,0
+718,40,Male,Typical Angina,174,444,Yes,Normal,73,No,3.8,Flat,0,Normal,Yes,No,High,24.3,No,No,Good,Asian,South,1
+719,38,Male,Typical Angina,180,503,No,ST-T Abnormality,77,Yes,3.0,Upsloping,0,Normal,Yes,No,Low,29.3,No,No,Poor,Asian,North,1
+720,60,Male,Asymptomatic,181,177,Yes,LV Hypertrophy,119,No,0.6,Flat,2,Fixed Defect,No,No,High,31.6,No,No,Fair,Black,East,0
+721,44,Male,Asymptomatic,143,469,No,Normal,96,Yes,4.8,Upsloping,0,Fixed Defect,No,No,High,19.6,No,No,Poor,White,West,0
+722,36,Male,Typical Angina,101,278,Yes,Normal,171,No,4.6,Flat,0,Fixed Defect,No,No,High,27.5,No,No,Very Good,Hispanic,North,0
+723,66,Male,Typical Angina,134,362,No,LV Hypertrophy,149,No,1.9,Flat,2,Fixed Defect,No,No,Low,24.4,No,No,Good,Asian,South,0
+724,40,Male,Typical Angina,99,436,No,LV Hypertrophy,72,No,1.9,Flat,3,Normal,No,No,Low,24.7,No,No,Fair,Asian,East,0
+725,52,Female,Typical Angina,162,427,No,LV Hypertrophy,197,Yes,5.2,Upsloping,0,Reversible Defect,Yes,Yes,Low,21.7,No,No,Fair,Asian,South,0
+726,56,Male,Atypical Angina,137,157,No,Normal,90,No,0.4,Flat,3,Normal,No,Yes,High,25.1,No,No,Fair,Hispanic,West,0
+727,36,Male,Typical Angina,157,180,Yes,LV Hypertrophy,187,Yes,5.5,Downsloping,2,Fixed Defect,No,Yes,Low,21.6,No,No,Poor,White,South,0
+728,56,Male,Asymptomatic,122,477,Yes,LV Hypertrophy,102,No,1.6,Downsloping,3,Reversible Defect,No,No,Moderate,24.9,No,No,Very Good,Hispanic,West,0
+729,64,Male,Non-anginal Pain,121,514,No,ST-T Abnormality,98,No,3.7,Upsloping,3,Reversible Defect,No,No,Moderate,30.6,No,No,Good,Hispanic,West,1
+730,54,Male,Atypical Angina,104,161,Yes,ST-T Abnormality,147,No,5.8,Downsloping,2,Normal,No,Yes,Low,28.5,No,No,Very Good,Black,North,0
+731,36,Male,Typical Angina,158,235,Yes,Normal,71,No,4.2,Downsloping,3,Normal,No,No,Low,33.7,No,No,Fair,Asian,West,1
+732,56,Female,Non-anginal Pain,112,302,No,ST-T Abnormality,126,No,2.6,Downsloping,0,Normal,Yes,No,Moderate,28.1,No,No,Very Good,White,South,1
+733,56,Female,Atypical Angina,102,487,No,ST-T Abnormality,105,No,4.3,Upsloping,0,Reversible Defect,No,No,High,26.7,No,No,Poor,Black,North,0
+734,65,Male,Non-anginal Pain,120,439,No,LV Hypertrophy,182,No,2.1,Upsloping,0,Reversible Defect,No,No,Low,28.2,No,No,Excellent,Black,West,1
+735,69,Female,Typical Angina,127,420,No,LV Hypertrophy,100,Yes,1.7,Downsloping,0,Reversible Defect,No,No,High,22.9,No,No,Excellent,Other,East,1
+736,64,Male,Typical Angina,137,461,No,ST-T Abnormality,124,No,6.2,Upsloping,3,Fixed Defect,No,No,Moderate,17.7,No,No,Good,Asian,East,0
+737,55,Male,Asymptomatic,161,222,No,ST-T Abnormality,106,No,4.7,Flat,0,Fixed Defect,Yes,Yes,Moderate,29.2,No,No,Good,White,West,0
+738,45,Male,Typical Angina,193,494,No,ST-T Abnormality,150,No,4.0,Downsloping,3,Normal,Yes,Yes,Moderate,18.8,No,No,Very Good,White,North,1
+739,37,Female,Typical Angina,175,338,No,Normal,128,Yes,2.2,Upsloping,1,Reversible Defect,No,No,Low,30.5,No,Yes,Good,White,North,1
+740,61,Male,Atypical Angina,108,442,Yes,Normal,153,No,0.3,Upsloping,3,Normal,No,No,Moderate,29.0,No,No,Poor,Asian,North,0
+741,48,Male,Asymptomatic,144,262,No,Normal,135,No,0.2,Downsloping,0,Reversible Defect,No,No,Moderate,22.6,No,No,Fair,White,South,0
+742,41,Male,Atypical Angina,106,131,Yes,ST-T Abnormality,139,No,3.4,Upsloping,1,Normal,No,Yes,Low,24.3,No,No,Fair,Hispanic,East,0
+743,56,Male,Non-anginal Pain,176,234,No,ST-T Abnormality,198,No,4.7,Downsloping,2,Fixed Defect,No,Yes,Moderate,26.0,No,No,Very Good,Hispanic,West,0
+744,76,Male,Typical Angina,142,160,No,Normal,121,No,3.3,Upsloping,3,Reversible Defect,Yes,No,Low,22.3,No,No,Fair,Asian,West,1
+745,57,Male,Non-anginal Pain,163,164,No,Normal,92,No,5.2,Flat,0,Fixed Defect,No,No,Moderate,28.2,No,Yes,Very Good,White,East,1
+746,41,Male,Atypical Angina,149,275,No,ST-T Abnormality,177,Yes,0.2,Downsloping,0,Reversible Defect,No,No,Moderate,28.5,No,Yes,Good,Other,South,0
+747,74,Male,Typical Angina,169,550,Yes,LV Hypertrophy,179,Yes,2.3,Flat,0,Normal,No,No,Moderate,20.2,No,No,Good,Other,North,1
+748,63,Male,Typical Angina,144,243,Yes,Normal,186,No,1.5,Downsloping,2,Reversible Defect,Yes,No,Low,22.7,No,No,Poor,Other,East,1
+749,34,Female,Atypical Angina,130,386,No,ST-T Abnormality,171,No,2.8,Upsloping,1,Fixed Defect,No,No,High,25.9,Yes,No,Fair,Hispanic,West,0
+750,46,Male,Atypical Angina,110,551,No,ST-T Abnormality,170,No,0.4,Flat,1,Reversible Defect,Yes,No,Low,30.6,No,No,Poor,Other,South,1
+751,33,Male,Atypical Angina,151,212,No,LV Hypertrophy,138,No,5.9,Upsloping,0,Normal,No,Yes,Moderate,28.6,No,No,Excellent,White,West,0
+752,75,Female,Atypical Angina,180,201,No,ST-T Abnormality,106,Yes,1.4,Downsloping,3,Reversible Defect,No,No,Moderate,16.7,No,No,Poor,White,North,0
+753,53,Male,Atypical Angina,183,539,No,ST-T Abnormality,92,No,5.7,Downsloping,0,Fixed Defect,Yes,No,Moderate,24.8,No,No,Very Good,Other,East,1
+754,30,Male,Typical Angina,122,438,No,Normal,136,Yes,2.6,Downsloping,0,Normal,No,No,Low,27.9,No,No,Very Good,Black,North,0
+755,38,Female,Atypical Angina,126,508,No,Normal,91,Yes,6.1,Downsloping,3,Fixed Defect,No,No,Moderate,22.8,No,No,Poor,Other,South,0
+756,58,Male,Typical Angina,153,339,No,LV Hypertrophy,170,No,3.4,Downsloping,0,Reversible Defect,Yes,No,Low,22.5,No,No,Good,Black,East,1
+757,73,Male,Typical Angina,184,410,No,LV Hypertrophy,198,Yes,5.8,Flat,2,Fixed Defect,Yes,Yes,Moderate,23.0,No,No,Excellent,Asian,North,1
+758,33,Male,Atypical Angina,182,364,No,ST-T Abnormality,114,No,0.0,Downsloping,0,Reversible Defect,No,Yes,Moderate,24.8,No,No,Poor,Asian,North,0
+759,61,Male,Atypical Angina,148,290,No,Normal,173,No,4.6,Upsloping,2,Normal,No,Yes,Moderate,22.1,No,No,Good,White,North,0
+760,29,Male,Asymptomatic,103,212,No,LV Hypertrophy,117,No,5.6,Flat,0,Fixed Defect,No,Yes,Moderate,28.6,No,No,Poor,Hispanic,South,0
+761,46,Male,Typical Angina,140,266,No,LV Hypertrophy,109,Yes,0.9,Upsloping,1,Fixed Defect,No,No,High,22.6,No,No,Fair,White,North,0
+762,60,Male,Atypical Angina,116,285,No,LV Hypertrophy,99,No,0.6,Downsloping,3,Reversible Defect,No,No,Low,21.9,Yes,No,Very Good,White,West,1
+763,75,Male,Atypical Angina,178,171,Yes,ST-T Abnormality,124,Yes,2.6,Upsloping,1,Fixed Defect,No,Yes,High,24.4,No,Yes,Fair,Hispanic,East,1
+764,77,Female,Atypical Angina,114,497,No,Normal,160,No,5.8,Flat,0,Fixed Defect,No,No,Low,31.9,No,No,Fair,White,East,1
+765,39,Female,Asymptomatic,106,237,No,LV Hypertrophy,155,No,3.4,Flat,0,Normal,Yes,No,Moderate,28.1,No,No,Excellent,Hispanic,North,0
+766,49,Male,Asymptomatic,194,532,No,Normal,87,No,3.3,Flat,2,Reversible Defect,No,No,Moderate,28.4,No,No,Good,White,South,0
+767,54,Male,Non-anginal Pain,126,170,Yes,LV Hypertrophy,150,Yes,0.9,Upsloping,0,Reversible Defect,No,No,Moderate,27.1,No,Yes,Very Good,Asian,West,0
+768,53,Female,Typical Angina,117,526,No,LV Hypertrophy,143,No,0.0,Flat,0,Normal,Yes,No,Low,22.2,No,Yes,Fair,Black,West,1
+769,50,Male,Non-anginal Pain,104,372,No,Normal,119,No,5.0,Upsloping,0,Normal,Yes,Yes,Moderate,23.4,Yes,No,Very Good,White,East,1
+770,55,Male,Atypical Angina,110,229,No,Normal,171,Yes,0.5,Downsloping,1,Reversible Defect,Yes,No,Low,22.8,No,No,Good,Black,East,1
+771,77,Female,Asymptomatic,161,210,No,Normal,72,No,3.9,Downsloping,2,Normal,No,Yes,Low,30.4,No,No,Poor,Other,West,0
+772,41,Male,Asymptomatic,140,259,No,ST-T Abnormality,129,No,5.7,Upsloping,1,Normal,No,No,Low,27.2,Yes,No,Fair,White,East,0
+773,61,Male,Non-anginal Pain,118,233,No,LV Hypertrophy,167,Yes,1.3,Flat,2,Normal,No,No,Moderate,19.3,No,No,Good,Asian,North,0
+774,62,Female,Asymptomatic,187,143,No,ST-T Abnormality,169,Yes,4.1,Upsloping,1,Reversible Defect,Yes,No,Low,31.8,Yes,No,Very Good,Hispanic,West,1
+775,69,Male,Atypical Angina,166,219,No,Normal,173,No,0.5,Upsloping,0,Normal,Yes,No,Low,24.7,No,No,Good,Asian,East,1
+776,63,Male,Asymptomatic,114,275,No,LV Hypertrophy,72,Yes,3.7,Upsloping,1,Fixed Defect,No,No,Low,28.6,No,No,Poor,Black,North,0
+777,29,Male,Non-anginal Pain,177,371,No,ST-T Abnormality,111,Yes,1.0,Downsloping,1,Fixed Defect,No,Yes,Low,30.2,Yes,No,Good,Hispanic,North,1
+778,49,Female,Atypical Angina,176,414,No,LV Hypertrophy,193,No,4.6,Upsloping,2,Reversible Defect,Yes,No,High,15.8,No,No,Very Good,Asian,West,0
+779,76,Female,Non-anginal Pain,176,539,No,ST-T Abnormality,152,No,1.9,Downsloping,2,Normal,No,No,High,27.8,No,No,Fair,Asian,North,0
+780,34,Female,Asymptomatic,105,334,No,Normal,99,No,2.9,Upsloping,1,Fixed Defect,No,No,Low,25.0,No,No,Fair,Asian,West,0
+781,56,Male,Non-anginal Pain,130,251,No,ST-T Abnormality,84,No,3.7,Downsloping,2,Reversible Defect,Yes,Yes,Moderate,16.3,No,No,Excellent,Hispanic,North,1
+782,45,Female,Non-anginal Pain,135,360,No,LV Hypertrophy,82,No,1.1,Upsloping,2,Fixed Defect,No,No,Moderate,21.5,Yes,No,Very Good,Asian,West,0
+783,33,Female,Typical Angina,110,541,Yes,LV Hypertrophy,169,Yes,4.6,Upsloping,2,Normal,Yes,No,Moderate,24.2,No,No,Excellent,Asian,West,1
+784,59,Male,Asymptomatic,194,551,No,LV Hypertrophy,151,No,1.9,Flat,3,Reversible Defect,No,No,Moderate,29.4,No,No,Excellent,Black,West,1
+785,33,Female,Asymptomatic,141,247,No,LV Hypertrophy,176,No,4.1,Flat,2,Fixed Defect,No,No,Low,25.3,Yes,No,Poor,Asian,West,0
+786,66,Female,Non-anginal Pain,196,263,Yes,Normal,102,Yes,1.0,Upsloping,3,Reversible Defect,No,No,Moderate,26.6,No,No,Very Good,Asian,North,1
+787,31,Male,Typical Angina,121,240,No,ST-T Abnormality,144,No,4.3,Upsloping,3,Fixed Defect,No,No,Low,24.6,No,No,Fair,Other,West,1
+788,51,Male,Asymptomatic,134,545,Yes,Normal,151,Yes,0.8,Upsloping,2,Fixed Defect,No,No,Low,30.4,No,No,Very Good,Hispanic,East,1
+789,65,Male,Atypical Angina,192,287,No,Normal,139,Yes,2.6,Upsloping,1,Normal,No,No,Moderate,28.1,No,No,Poor,Other,North,1
+790,65,Male,Non-anginal Pain,140,326,No,Normal,115,Yes,1.5,Flat,2,Normal,Yes,No,Moderate,26.7,No,No,Very Good,Black,West,1
+791,38,Male,Asymptomatic,111,359,No,LV Hypertrophy,176,No,4.6,Downsloping,0,Fixed Defect,No,No,Low,21.4,Yes,No,Very Good,Other,North,1
+792,38,Male,Atypical Angina,171,153,Yes,LV Hypertrophy,170,No,1.6,Upsloping,1,Reversible Defect,Yes,Yes,Moderate,26.5,No,No,Excellent,White,North,0
+793,47,Female,Asymptomatic,192,136,Yes,LV Hypertrophy,79,No,5.5,Flat,3,Reversible Defect,No,No,Moderate,37.1,No,No,Very Good,Hispanic,North,0
+794,45,Female,Atypical Angina,198,331,No,ST-T Abnormality,132,No,5.5,Upsloping,3,Normal,Yes,No,High,29.2,Yes,No,Excellent,Asian,North,0
+795,49,Female,Non-anginal Pain,164,292,No,LV Hypertrophy,99,Yes,1.2,Upsloping,1,Fixed Defect,No,No,Moderate,23.0,No,No,Excellent,Other,West,1
+796,42,Male,Asymptomatic,198,372,No,ST-T Abnormality,195,Yes,3.8,Downsloping,1,Normal,Yes,Yes,Moderate,33.4,No,No,Good,Other,North,1
+797,37,Male,Asymptomatic,106,172,No,LV Hypertrophy,184,Yes,0.5,Upsloping,2,Fixed Defect,No,No,Moderate,22.9,No,No,Poor,Asian,East,0
+798,74,Male,Typical Angina,175,371,No,LV Hypertrophy,190,Yes,2.4,Upsloping,3,Fixed Defect,No,Yes,Low,28.9,No,No,Excellent,Asian,North,1
+799,29,Male,Non-anginal Pain,194,252,No,Normal,149,Yes,4.4,Downsloping,0,Normal,No,No,Low,25.8,No,No,Very Good,Black,North,1
+800,73,Female,Atypical Angina,106,272,No,Normal,163,No,4.1,Downsloping,2,Reversible Defect,No,No,Low,26.7,Yes,No,Excellent,Other,East,1
+801,41,Female,Asymptomatic,193,243,No,Normal,74,No,3.9,Downsloping,1,Normal,No,No,Moderate,26.9,No,No,Excellent,Other,West,0
+802,32,Male,Asymptomatic,124,524,No,ST-T Abnormality,152,No,1.8,Downsloping,3,Fixed Defect,No,No,Moderate,25.0,Yes,No,Excellent,White,East,0
+803,29,Female,Atypical Angina,95,507,No,ST-T Abnormality,145,Yes,2.3,Flat,1,Normal,Yes,Yes,High,24.4,No,No,Fair,White,South,1
+804,77,Female,Non-anginal Pain,109,537,Yes,LV Hypertrophy,84,No,0.6,Flat,1,Reversible Defect,No,Yes,Moderate,20.7,Yes,No,Fair,Other,East,0
+805,68,Male,Typical Angina,102,277,No,ST-T Abnormality,201,Yes,4.5,Flat,1,Reversible Defect,No,No,Low,21.5,No,Yes,Fair,White,West,0
+806,60,Female,Typical Angina,166,197,No,LV Hypertrophy,184,Yes,3.1,Upsloping,2,Fixed Defect,No,No,Low,27.3,No,No,Fair,Other,East,0
+807,62,Male,Asymptomatic,131,488,Yes,ST-T Abnormality,132,No,4.4,Downsloping,0,Normal,Yes,No,Low,23.3,No,No,Good,Hispanic,North,1
+808,56,Male,Atypical Angina,168,262,Yes,ST-T Abnormality,176,No,1.5,Downsloping,0,Reversible Defect,No,No,Moderate,22.4,No,No,Excellent,Black,West,0
+809,59,Male,Asymptomatic,147,300,No,ST-T Abnormality,134,Yes,2.0,Flat,3,Normal,No,No,Moderate,37.3,Yes,No,Good,White,South,1
+810,36,Male,Atypical Angina,149,414,No,Normal,172,No,2.1,Upsloping,1,Reversible Defect,No,Yes,High,36.0,No,No,Very Good,Other,West,0
+811,67,Male,Typical Angina,179,144,No,ST-T Abnormality,176,Yes,0.2,Upsloping,0,Fixed Defect,No,No,Moderate,28.3,No,Yes,Poor,White,North,0
+812,54,Male,Non-anginal Pain,190,320,No,Normal,90,No,2.1,Upsloping,1,Fixed Defect,Yes,No,High,28.9,No,No,Good,Black,South,0
+813,62,Male,Atypical Angina,193,455,No,Normal,128,No,5.0,Flat,3,Normal,No,No,Moderate,22.8,No,No,Fair,Hispanic,West,1
+814,31,Male,Typical Angina,180,549,No,ST-T Abnormality,182,No,5.6,Upsloping,1,Fixed Defect,No,No,High,21.3,No,No,Fair,Asian,West,0
+815,40,Male,Asymptomatic,138,300,No,LV Hypertrophy,127,Yes,3.2,Upsloping,0,Reversible Defect,No,No,Moderate,24.6,No,Yes,Very Good,Asian,North,1
+816,29,Male,Atypical Angina,127,538,No,LV Hypertrophy,189,No,2.8,Upsloping,1,Fixed Defect,Yes,No,Moderate,26.0,No,No,Excellent,White,East,0
+817,72,Male,Non-anginal Pain,102,559,No,LV Hypertrophy,167,No,0.2,Downsloping,0,Reversible Defect,Yes,Yes,Moderate,28.9,No,No,Poor,Other,East,1
+818,33,Male,Asymptomatic,181,479,No,ST-T Abnormality,162,No,5.5,Flat,3,Reversible Defect,No,No,Moderate,18.7,No,No,Good,Black,South,0
+819,58,Male,Asymptomatic,101,266,No,LV Hypertrophy,122,Yes,0.1,Downsloping,1,Fixed Defect,Yes,No,Moderate,34.6,No,No,Excellent,Hispanic,North,1
+820,58,Male,Typical Angina,100,371,No,Normal,107,No,5.9,Downsloping,0,Reversible Defect,No,No,Low,27.0,No,Yes,Excellent,Hispanic,North,1
+821,45,Male,Atypical Angina,129,510,Yes,LV Hypertrophy,78,No,3.0,Flat,3,Reversible Defect,No,No,Low,19.8,No,No,Good,Hispanic,East,0
+822,76,Male,Asymptomatic,111,543,Yes,ST-T Abnormality,114,No,2.1,Downsloping,1,Normal,No,No,Moderate,26.6,Yes,No,Good,Asian,East,0
+823,75,Female,Non-anginal Pain,96,218,No,LV Hypertrophy,168,No,5.7,Upsloping,3,Normal,Yes,No,Moderate,22.4,No,No,Good,Black,South,0
+824,51,Male,Atypical Angina,121,557,No,Normal,188,No,0.2,Upsloping,0,Normal,No,No,Low,22.1,No,No,Good,Asian,East,1
+825,43,Male,Non-anginal Pain,163,364,No,ST-T Abnormality,139,No,3.6,Upsloping,1,Fixed Defect,No,No,Low,21.8,Yes,No,Fair,White,South,1
+826,65,Female,Asymptomatic,137,330,Yes,LV Hypertrophy,115,No,3.4,Upsloping,1,Normal,No,No,Low,25.0,No,No,Excellent,Hispanic,West,0
+827,49,Female,Non-anginal Pain,114,173,Yes,ST-T Abnormality,102,Yes,1.4,Flat,1,Reversible Defect,No,Yes,Moderate,34.4,No,Yes,Excellent,Black,South,1
+828,42,Female,Typical Angina,121,558,No,ST-T Abnormality,103,No,2.7,Downsloping,3,Fixed Defect,No,Yes,Low,26.4,No,No,Fair,Hispanic,South,0
+829,30,Female,Non-anginal Pain,197,370,No,ST-T Abnormality,196,Yes,4.0,Downsloping,3,Fixed Defect,No,No,Low,28.8,No,Yes,Excellent,Asian,South,0
+830,39,Male,Atypical Angina,147,445,No,LV Hypertrophy,137,No,4.5,Upsloping,0,Fixed Defect,No,Yes,Low,29.8,No,No,Good,Asian,West,0
+831,67,Male,Non-anginal Pain,147,442,No,ST-T Abnormality,100,Yes,0.0,Upsloping,2,Fixed Defect,No,No,Low,25.4,No,No,Poor,Asian,East,1
+832,66,Male,Non-anginal Pain,158,538,No,LV Hypertrophy,184,No,5.8,Downsloping,1,Reversible Defect,No,No,High,21.4,No,No,Excellent,Hispanic,South,0
+833,62,Male,Typical Angina,193,420,No,Normal,99,Yes,1.0,Flat,1,Reversible Defect,No,No,Low,19.6,No,No,Poor,Black,East,1
+834,66,Male,Non-anginal Pain,114,253,No,LV Hypertrophy,201,Yes,1.4,Downsloping,0,Normal,No,No,Moderate,24.5,No,No,Poor,Black,South,1
+835,62,Male,Non-anginal Pain,192,469,No,Normal,100,No,1.6,Upsloping,1,Fixed Defect,Yes,Yes,Moderate,30.6,No,No,Fair,White,East,1
+836,46,Male,Asymptomatic,106,407,No,LV Hypertrophy,200,Yes,0.2,Upsloping,3,Normal,No,No,High,29.7,No,No,Very Good,Hispanic,South,0
+837,58,Female,Asymptomatic,150,142,No,ST-T Abnormality,132,Yes,0.8,Flat,3,Reversible Defect,No,No,Low,27.0,No,No,Excellent,White,East,1
+838,43,Female,Atypical Angina,142,196,No,LV Hypertrophy,73,Yes,6.1,Downsloping,1,Fixed Defect,Yes,No,Low,27.6,No,No,Fair,White,North,1
+839,55,Male,Asymptomatic,147,394,No,ST-T Abnormality,138,No,2.0,Flat,1,Reversible Defect,No,No,Low,25.5,No,No,Fair,White,West,1
+840,62,Female,Asymptomatic,103,450,Yes,Normal,95,No,0.7,Flat,3,Normal,Yes,Yes,Low,24.1,No,No,Poor,White,South,1
+841,66,Male,Asymptomatic,146,407,No,LV Hypertrophy,114,No,0.7,Upsloping,1,Reversible Defect,No,No,Moderate,23.0,No,No,Excellent,Asian,West,1
+842,61,Female,Asymptomatic,137,430,No,ST-T Abnormality,125,No,4.5,Downsloping,3,Fixed Defect,No,No,Low,20.1,No,No,Fair,White,South,0
+843,52,Male,Typical Angina,140,132,No,Normal,200,No,5.3,Upsloping,2,Fixed Defect,No,No,Low,33.2,No,No,Good,Black,North,0
+844,43,Female,Asymptomatic,146,439,No,Normal,111,No,1.6,Downsloping,2,Normal,No,No,High,26.7,No,No,Fair,White,North,0
+845,58,Male,Typical Angina,167,430,No,LV Hypertrophy,134,Yes,0.1,Upsloping,1,Fixed Defect,No,No,Moderate,24.2,No,No,Good,Asian,West,1
+846,70,Male,Typical Angina,139,228,Yes,Normal,101,No,1.4,Upsloping,1,Reversible Defect,No,No,Low,33.3,No,Yes,Very Good,Other,South,1
+847,45,Male,Asymptomatic,106,434,No,ST-T Abnormality,117,Yes,0.4,Downsloping,1,Reversible Defect,No,No,Low,34.0,No,No,Good,Other,East,1
+848,33,Male,Non-anginal Pain,130,318,No,Normal,200,Yes,0.6,Downsloping,3,Reversible Defect,No,No,Low,37.0,No,No,Good,Other,South,1
+849,57,Male,Typical Angina,195,366,No,Normal,166,No,2.7,Upsloping,2,Reversible Defect,No,No,High,25.0,No,Yes,Poor,Hispanic,East,1
+850,32,Male,Non-anginal Pain,117,187,No,ST-T Abnormality,147,No,1.4,Downsloping,2,Normal,No,No,High,26.4,Yes,No,Fair,Black,West,0
+851,38,Male,Non-anginal Pain,95,142,No,Normal,180,Yes,3.2,Upsloping,0,Reversible Defect,Yes,Yes,High,28.6,No,No,Very Good,Asian,West,0
+852,45,Male,Asymptomatic,179,296,No,Normal,139,Yes,1.6,Downsloping,0,Normal,No,Yes,High,32.6,No,No,Fair,Other,North,0
+853,38,Male,Atypical Angina,174,150,No,Normal,128,No,5.8,Upsloping,1,Reversible Defect,Yes,No,Moderate,26.2,No,No,Good,Asian,East,0
+854,45,Female,Asymptomatic,193,376,No,Normal,176,No,5.6,Upsloping,3,Normal,No,No,Low,22.1,No,No,Good,Asian,South,0
+855,48,Male,Atypical Angina,107,378,No,ST-T Abnormality,114,No,3.5,Upsloping,1,Reversible Defect,No,No,Moderate,23.0,No,Yes,Fair,Hispanic,North,0
+856,52,Male,Atypical Angina,103,512,No,Normal,144,No,2.2,Flat,2,Reversible Defect,No,No,Moderate,30.7,Yes,No,Very Good,Other,West,1
+857,33,Male,Asymptomatic,128,332,No,ST-T Abnormality,126,No,2.4,Downsloping,1,Normal,No,No,High,28.5,No,Yes,Very Good,White,North,0
+858,62,Female,Asymptomatic,118,154,No,Normal,197,No,2.6,Upsloping,1,Fixed Defect,No,No,Moderate,25.3,No,No,Poor,Asian,South,0
+859,34,Male,Atypical Angina,96,242,No,Normal,100,No,4.5,Flat,2,Fixed Defect,No,Yes,Moderate,25.0,No,No,Good,Other,South,0
+860,30,Female,Asymptomatic,195,541,No,Normal,141,Yes,2.8,Upsloping,2,Fixed Defect,No,Yes,High,25.3,No,No,Good,Asian,West,0
+861,41,Female,Atypical Angina,110,407,No,Normal,188,No,5.3,Flat,2,Normal,No,No,Low,31.0,No,No,Poor,Hispanic,North,0
+862,71,Male,Non-anginal Pain,105,505,No,ST-T Abnormality,125,Yes,5.9,Upsloping,2,Fixed Defect,Yes,No,High,22.8,No,No,Fair,Hispanic,East,1
+863,71,Male,Asymptomatic,147,269,No,ST-T Abnormality,137,Yes,2.1,Upsloping,0,Fixed Defect,Yes,No,Low,21.1,No,No,Good,White,East,1
+864,76,Female,Non-anginal Pain,117,150,No,ST-T Abnormality,73,No,3.5,Flat,3,Normal,No,Yes,Moderate,33.3,Yes,No,Fair,Hispanic,East,0
+865,39,Female,Typical Angina,122,435,Yes,LV Hypertrophy,96,No,0.6,Flat,3,Fixed Defect,No,Yes,Low,26.1,No,No,Very Good,Other,South,0
+866,75,Male,Non-anginal Pain,136,281,Yes,Normal,127,No,1.2,Downsloping,2,Fixed Defect,Yes,No,Moderate,25.7,No,No,Excellent,Hispanic,North,0
+867,51,Male,Non-anginal Pain,118,198,No,Normal,196,Yes,2.6,Downsloping,3,Fixed Defect,No,No,Moderate,28.7,No,No,Poor,White,East,0
+868,44,Female,Atypical Angina,193,245,No,ST-T Abnormality,123,No,1.3,Flat,3,Normal,Yes,No,Low,22.0,No,No,Good,Black,North,0
+869,59,Male,Non-anginal Pain,153,437,No,LV Hypertrophy,113,No,5.4,Downsloping,3,Normal,Yes,No,High,29.0,No,No,Poor,Asian,West,1
+870,39,Female,Asymptomatic,183,446,No,Normal,119,No,1.0,Flat,3,Fixed Defect,No,No,Moderate,24.5,No,No,Very Good,Asian,East,0
+871,44,Male,Atypical Angina,195,218,No,ST-T Abnormality,112,Yes,2.8,Downsloping,2,Fixed Defect,No,Yes,Moderate,30.5,No,No,Very Good,Other,North,0
+872,36,Male,Typical Angina,158,211,No,Normal,81,No,3.8,Upsloping,1,Normal,No,Yes,Low,19.9,No,Yes,Very Good,White,South,0
+873,32,Female,Asymptomatic,177,461,No,Normal,173,No,4.3,Downsloping,1,Fixed Defect,No,No,High,27.8,No,No,Very Good,White,West,0
+874,68,Male,Typical Angina,121,550,No,ST-T Abnormality,168,Yes,2.4,Upsloping,1,Normal,No,No,Low,25.1,No,No,Excellent,White,West,0
+875,32,Male,Non-anginal Pain,109,489,No,ST-T Abnormality,155,No,5.4,Upsloping,0,Fixed Defect,No,Yes,Low,23.2,No,No,Fair,Asian,West,0
+876,53,Male,Asymptomatic,140,560,No,Normal,170,No,3.5,Downsloping,3,Normal,Yes,No,Low,29.1,No,No,Fair,Hispanic,West,0
+877,31,Male,Asymptomatic,174,243,Yes,Normal,174,Yes,2.7,Flat,2,Reversible Defect,No,Yes,Moderate,25.4,No,Yes,Excellent,Asian,South,1
+878,60,Male,Typical Angina,197,358,No,ST-T Abnormality,116,Yes,0.4,Upsloping,2,Reversible Defect,Yes,No,High,27.9,Yes,No,Fair,Asian,South,1
+879,31,Male,Asymptomatic,185,324,Yes,Normal,114,Yes,2.9,Upsloping,0,Normal,No,No,Low,31.1,No,No,Very Good,Asian,East,1
+880,55,Male,Asymptomatic,151,331,No,Normal,92,No,5.1,Downsloping,2,Reversible Defect,Yes,No,Low,29.2,No,No,Fair,Hispanic,South,1
+881,57,Female,Asymptomatic,169,538,No,ST-T Abnormality,184,Yes,3.8,Flat,1,Fixed Defect,No,Yes,High,21.7,No,No,Poor,Black,South,0
+882,60,Male,Non-anginal Pain,120,464,No,Normal,195,No,5.2,Flat,0,Normal,Yes,No,Moderate,23.8,No,No,Fair,Other,West,1
+883,47,Male,Typical Angina,146,272,No,Normal,194,No,3.1,Downsloping,2,Normal,No,Yes,Moderate,27.8,No,No,Poor,Black,South,0
+884,49,Male,Asymptomatic,135,550,No,LV Hypertrophy,100,No,0.7,Flat,0,Fixed Defect,No,No,Low,29.2,No,No,Good,Black,West,0
+885,33,Female,Atypical Angina,152,554,No,ST-T Abnormality,78,Yes,0.1,Downsloping,0,Fixed Defect,No,No,Moderate,24.4,Yes,No,Poor,Asian,North,0
+886,46,Female,Atypical Angina,140,396,No,LV Hypertrophy,168,Yes,1.9,Downsloping,2,Normal,Yes,Yes,Low,26.8,No,No,Poor,Black,North,1
+887,56,Male,Atypical Angina,187,512,No,LV Hypertrophy,127,No,4.3,Downsloping,1,Fixed Defect,Yes,No,High,26.8,No,No,Very Good,Asian,North,0
+888,70,Male,Atypical Angina,198,264,No,LV Hypertrophy,181,No,4.9,Upsloping,2,Normal,Yes,No,Moderate,27.3,No,No,Very Good,Asian,North,1
+889,50,Male,Non-anginal Pain,127,306,No,Normal,143,No,1.8,Upsloping,3,Fixed Defect,No,No,Moderate,21.3,No,No,Very Good,Other,North,0
+890,49,Female,Asymptomatic,130,555,No,Normal,185,Yes,3.1,Upsloping,3,Normal,No,Yes,Low,20.3,No,Yes,Poor,White,North,1
+891,34,Female,Typical Angina,99,155,No,LV Hypertrophy,90,Yes,2.6,Downsloping,2,Fixed Defect,Yes,Yes,Low,17.0,No,No,Excellent,Asian,North,0
+892,29,Male,Asymptomatic,100,182,No,LV Hypertrophy,95,No,2.5,Upsloping,1,Fixed Defect,Yes,Yes,Low,26.4,Yes,No,Very Good,Black,West,1
+893,33,Female,Non-anginal Pain,189,357,No,LV Hypertrophy,89,Yes,1.4,Upsloping,3,Reversible Defect,No,Yes,Low,20.5,No,No,Very Good,Other,West,0
+894,69,Female,Atypical Angina,189,271,No,Normal,75,No,0.8,Upsloping,3,Reversible Defect,Yes,No,Low,34.5,No,No,Poor,Black,West,1
+895,40,Male,Non-anginal Pain,118,560,No,LV Hypertrophy,145,No,1.2,Downsloping,2,Reversible Defect,Yes,No,Moderate,28.6,No,No,Good,White,West,1
+896,54,Male,Asymptomatic,126,509,No,LV Hypertrophy,198,Yes,0.3,Downsloping,2,Fixed Defect,Yes,No,Low,21.3,Yes,No,Good,Hispanic,South,1
+897,74,Male,Typical Angina,148,173,No,ST-T Abnormality,142,No,1.2,Downsloping,2,Normal,Yes,No,Moderate,30.5,No,No,Fair,White,South,0
+898,62,Male,Non-anginal Pain,151,319,No,ST-T Abnormality,110,No,0.1,Upsloping,0,Fixed Defect,Yes,No,Low,30.5,No,No,Good,Other,East,1
+899,77,Female,Typical Angina,100,349,No,Normal,96,Yes,3.9,Flat,0,Reversible Defect,Yes,No,Low,30.9,Yes,No,Very Good,White,South,1
+900,42,Male,Non-anginal Pain,150,261,No,ST-T Abnormality,97,No,2.0,Upsloping,0,Fixed Defect,No,No,Moderate,22.8,No,No,Excellent,White,West,0
+901,54,Male,Typical Angina,105,147,No,ST-T Abnormality,153,Yes,6.0,Upsloping,2,Reversible Defect,No,No,Moderate,28.9,Yes,No,Fair,Other,West,0
+902,73,Male,Typical Angina,109,131,No,ST-T Abnormality,198,No,1.2,Downsloping,1,Reversible Defect,No,No,Moderate,30.9,No,No,Excellent,Other,North,0
+903,55,Male,Atypical Angina,173,329,No,Normal,103,Yes,2.1,Downsloping,3,Normal,No,Yes,Low,32.3,No,No,Excellent,Black,North,1
+904,37,Male,Typical Angina,136,364,No,ST-T Abnormality,167,No,2.2,Upsloping,0,Normal,Yes,No,Moderate,19.9,No,No,Very Good,Asian,East,0
+905,54,Male,Atypical Angina,193,310,Yes,Normal,181,No,0.1,Upsloping,1,Reversible Defect,No,Yes,Moderate,25.1,No,No,Poor,Hispanic,South,0
+906,75,Male,Asymptomatic,170,485,No,LV Hypertrophy,86,No,5.2,Flat,2,Reversible Defect,No,Yes,Low,22.6,No,Yes,Poor,Hispanic,West,1
+907,50,Male,Asymptomatic,100,417,Yes,ST-T Abnormality,93,Yes,0.2,Flat,0,Fixed Defect,No,No,Moderate,33.5,No,No,Poor,Hispanic,South,0
+908,75,Male,Atypical Angina,193,460,No,Normal,96,No,5.8,Downsloping,2,Reversible Defect,Yes,No,Moderate,28.0,No,No,Good,White,East,1
+909,58,Male,Atypical Angina,144,345,Yes,ST-T Abnormality,166,No,5.5,Flat,1,Fixed Defect,No,No,Low,29.6,No,No,Poor,Other,North,0
+910,71,Male,Non-anginal Pain,166,241,Yes,LV Hypertrophy,82,No,3.3,Flat,0,Reversible Defect,Yes,No,High,27.9,No,No,Very Good,Other,West,1
+911,76,Male,Non-anginal Pain,125,438,No,Normal,142,No,3.4,Downsloping,0,Normal,No,No,Moderate,27.5,No,No,Good,Other,North,0
+912,45,Male,Non-anginal Pain,168,174,No,Normal,176,Yes,4.1,Flat,0,Normal,No,Yes,Low,22.5,No,No,Poor,Asian,West,0
+913,54,Male,Asymptomatic,101,298,No,Normal,187,Yes,2.4,Upsloping,0,Reversible Defect,No,No,Moderate,24.2,Yes,No,Excellent,Other,North,1
+914,64,Male,Non-anginal Pain,190,207,No,LV Hypertrophy,96,No,4.0,Flat,1,Fixed Defect,No,No,Low,26.3,Yes,No,Very Good,Other,North,0
+915,29,Male,Typical Angina,180,447,Yes,LV Hypertrophy,92,Yes,0.3,Downsloping,0,Fixed Defect,No,Yes,High,23.4,No,No,Very Good,White,East,0
+916,36,Female,Typical Angina,182,458,No,LV Hypertrophy,83,No,0.3,Upsloping,3,Fixed Defect,No,No,Moderate,22.7,No,No,Fair,Black,South,0
+917,77,Male,Non-anginal Pain,165,170,No,Normal,177,Yes,2.8,Flat,3,Reversible Defect,Yes,No,Low,25.2,No,No,Very Good,Hispanic,North,1
+918,63,Male,Typical Angina,138,460,No,LV Hypertrophy,93,Yes,3.4,Upsloping,2,Reversible Defect,No,Yes,Low,23.6,No,Yes,Excellent,White,West,1
+919,43,Female,Asymptomatic,179,145,No,ST-T Abnormality,167,No,5.5,Upsloping,0,Normal,Yes,Yes,Low,26.2,No,No,Very Good,White,South,0
+920,75,Male,Typical Angina,152,346,No,LV Hypertrophy,88,No,0.6,Flat,3,Normal,No,No,Moderate,24.2,No,No,Fair,White,South,0
+921,50,Male,Asymptomatic,97,248,No,Normal,187,No,5.1,Flat,3,Reversible Defect,Yes,Yes,Moderate,23.3,Yes,No,Very Good,Hispanic,North,0
+922,42,Female,Atypical Angina,197,359,No,ST-T Abnormality,100,Yes,1.3,Downsloping,3,Normal,No,No,Low,22.3,No,No,Very Good,White,North,1
+923,54,Female,Atypical Angina,160,346,Yes,LV Hypertrophy,96,No,2.4,Downsloping,1,Fixed Defect,No,No,Low,26.0,Yes,Yes,Fair,Black,North,1
+924,56,Male,Atypical Angina,122,448,No,ST-T Abnormality,109,Yes,2.0,Upsloping,0,Fixed Defect,No,No,Low,29.6,No,No,Very Good,Other,South,1
+925,51,Male,Atypical Angina,198,464,No,ST-T Abnormality,200,No,2.5,Downsloping,1,Reversible Defect,No,Yes,Low,28.6,No,No,Good,Black,East,0
+926,42,Male,Typical Angina,122,128,No,Normal,183,No,0.9,Upsloping,1,Fixed Defect,Yes,No,Low,19.9,No,No,Very Good,Other,North,0
+927,52,Male,Non-anginal Pain,191,307,No,ST-T Abnormality,116,No,3.1,Upsloping,3,Reversible Defect,No,No,Moderate,29.4,No,No,Poor,Other,South,0
+928,30,Male,Typical Angina,191,331,Yes,ST-T Abnormality,120,No,5.0,Downsloping,3,Fixed Defect,Yes,No,Moderate,28.6,No,No,Poor,White,South,0
+929,73,Male,Asymptomatic,121,445,No,Normal,176,No,2.7,Downsloping,2,Reversible Defect,No,No,High,29.5,No,No,Good,White,West,1
+930,54,Male,Typical Angina,170,165,No,Normal,142,No,3.0,Downsloping,0,Fixed Defect,No,No,High,30.3,No,No,Very Good,Hispanic,North,0
+931,42,Male,Typical Angina,172,184,No,Normal,144,No,5.3,Flat,0,Fixed Defect,No,No,Moderate,23.1,No,Yes,Excellent,Asian,East,0
+932,35,Female,Asymptomatic,180,564,No,ST-T Abnormality,87,No,4.4,Upsloping,3,Normal,No,No,Moderate,24.8,No,No,Very Good,Black,West,0
+933,31,Male,Atypical Angina,137,187,Yes,ST-T Abnormality,140,Yes,3.0,Upsloping,3,Normal,Yes,No,High,33.2,No,No,Poor,Hispanic,North,1
+934,75,Male,Atypical Angina,183,257,No,ST-T Abnormality,76,Yes,1.6,Upsloping,0,Normal,No,No,Low,32.9,No,No,Fair,Hispanic,West,1
+935,51,Male,Atypical Angina,97,185,No,Normal,96,No,5.5,Downsloping,2,Normal,No,No,Low,25.7,No,No,Good,Black,North,0
+936,74,Male,Non-anginal Pain,183,497,No,LV Hypertrophy,169,Yes,3.6,Downsloping,3,Normal,No,No,Low,28.4,Yes,No,Fair,Black,West,1
+937,71,Male,Asymptomatic,197,456,Yes,ST-T Abnormality,92,Yes,1.4,Downsloping,2,Normal,Yes,No,Moderate,28.8,Yes,No,Excellent,Other,East,1
+938,75,Female,Asymptomatic,102,247,No,LV Hypertrophy,121,Yes,1.7,Downsloping,1,Reversible Defect,No,No,Moderate,33.0,No,No,Very Good,Asian,West,0
+939,73,Male,Typical Angina,98,232,Yes,Normal,174,No,5.0,Downsloping,3,Reversible Defect,Yes,No,Low,27.4,No,Yes,Excellent,White,West,1
+940,46,Male,Non-anginal Pain,149,221,Yes,ST-T Abnormality,159,Yes,0.3,Flat,1,Normal,No,Yes,Moderate,21.2,No,No,Fair,Asian,West,0
+941,66,Male,Atypical Angina,189,472,No,LV Hypertrophy,79,Yes,6.2,Downsloping,3,Reversible Defect,Yes,Yes,Moderate,24.1,No,No,Very Good,Asian,North,1
+942,63,Male,Non-anginal Pain,177,539,No,ST-T Abnormality,149,Yes,0.8,Upsloping,1,Normal,No,No,Low,38.5,Yes,No,Excellent,White,North,1
+943,43,Male,Asymptomatic,143,360,No,ST-T Abnormality,122,No,4.9,Downsloping,3,Reversible Defect,Yes,Yes,Low,21.0,Yes,No,Poor,Asian,East,1
+944,53,Male,Asymptomatic,168,511,No,ST-T Abnormality,200,No,2.4,Upsloping,2,Fixed Defect,No,No,Low,26.2,No,Yes,Poor,Hispanic,West,1
+945,65,Female,Typical Angina,108,187,No,LV Hypertrophy,83,No,3.1,Downsloping,2,Reversible Defect,Yes,No,Low,35.3,Yes,No,Good,Hispanic,South,1
+946,56,Male,Typical Angina,125,381,Yes,Normal,121,No,5.5,Downsloping,2,Reversible Defect,No,Yes,High,22.8,No,No,Poor,White,West,0
+947,38,Male,Asymptomatic,121,174,No,ST-T Abnormality,104,No,2.6,Upsloping,1,Reversible Defect,No,No,High,15.1,No,No,Poor,White,South,0
+948,67,Male,Atypical Angina,115,518,No,Normal,105,Yes,3.3,Upsloping,2,Fixed Defect,No,No,High,15.8,No,No,Fair,Black,South,0
+949,45,Male,Atypical Angina,198,473,No,Normal,201,Yes,0.3,Upsloping,1,Normal,Yes,No,Moderate,22.8,No,No,Poor,Black,West,1
+950,67,Female,Non-anginal Pain,110,284,No,LV Hypertrophy,190,Yes,0.0,Upsloping,3,Reversible Defect,No,No,Moderate,18.9,No,No,Poor,Asian,South,0
+951,50,Male,Asymptomatic,152,249,No,LV Hypertrophy,140,Yes,1.5,Flat,1,Reversible Defect,Yes,No,Moderate,30.1,No,No,Fair,Asian,South,0
+952,54,Female,Asymptomatic,183,442,No,Normal,137,No,4.2,Upsloping,3,Fixed Defect,Yes,No,Moderate,27.1,Yes,No,Poor,White,West,1
+953,72,Male,Atypical Angina,164,332,No,ST-T Abnormality,173,No,0.8,Downsloping,0,Normal,No,Yes,Moderate,17.5,No,Yes,Poor,Asian,North,1
+954,53,Male,Atypical Angina,199,173,No,LV Hypertrophy,143,No,0.7,Downsloping,0,Reversible Defect,Yes,No,Moderate,19.6,Yes,No,Good,Other,West,1
+955,45,Male,Asymptomatic,150,534,No,ST-T Abnormality,186,No,2.5,Flat,0,Fixed Defect,Yes,No,Low,31.0,Yes,Yes,Poor,Hispanic,East,1
+956,41,Female,Typical Angina,119,545,No,ST-T Abnormality,137,No,4.0,Upsloping,1,Normal,No,Yes,Moderate,26.8,No,No,Poor,Asian,South,0
+957,48,Male,Asymptomatic,118,261,No,ST-T Abnormality,191,Yes,4.4,Downsloping,0,Normal,No,No,Low,31.7,No,No,Good,Asian,East,1
+958,53,Male,Asymptomatic,103,326,No,Normal,164,Yes,1.1,Flat,0,Reversible Defect,No,No,Moderate,30.5,Yes,No,Fair,Black,South,1
+959,32,Female,Atypical Angina,138,375,No,ST-T Abnormality,199,No,0.5,Downsloping,0,Reversible Defect,Yes,No,Moderate,21.4,Yes,No,Poor,Other,North,0
+960,38,Male,Atypical Angina,176,439,No,Normal,161,No,5.8,Flat,3,Reversible Defect,Yes,No,Low,29.5,Yes,No,Excellent,Asian,South,1
+961,31,Male,Typical Angina,104,482,No,Normal,162,Yes,1.6,Flat,2,Reversible Defect,No,No,High,28.3,No,No,Fair,Hispanic,West,0
+962,69,Male,Typical Angina,170,493,No,ST-T Abnormality,133,No,5.3,Upsloping,1,Fixed Defect,Yes,No,Low,18.2,No,No,Fair,Asian,South,1
+963,73,Female,Non-anginal Pain,146,554,No,ST-T Abnormality,99,No,5.4,Flat,0,Fixed Defect,No,No,Low,20.6,Yes,No,Poor,White,East,1
+964,46,Male,Asymptomatic,165,443,No,ST-T Abnormality,82,No,4.8,Downsloping,3,Reversible Defect,Yes,No,Low,35.8,No,No,Good,Other,West,1
+965,75,Female,Atypical Angina,197,420,No,ST-T Abnormality,147,No,1.0,Downsloping,2,Normal,No,No,High,22.3,No,No,Fair,Asian,East,0
+966,64,Female,Typical Angina,161,439,No,Normal,111,Yes,5.1,Upsloping,2,Reversible Defect,No,No,Moderate,27.6,No,No,Good,Other,North,1
+967,75,Male,Non-anginal Pain,188,334,No,ST-T Abnormality,200,Yes,4.8,Upsloping,2,Normal,No,No,Moderate,25.2,No,No,Excellent,Asian,East,0
+968,50,Male,Non-anginal Pain,121,480,No,ST-T Abnormality,107,No,3.7,Flat,3,Normal,Yes,Yes,High,26.7,No,No,Good,Hispanic,East,0
+969,62,Male,Atypical Angina,168,336,No,Normal,94,Yes,2.1,Upsloping,0,Normal,No,Yes,Low,25.5,No,No,Very Good,Hispanic,East,1
+970,75,Male,Atypical Angina,158,317,No,LV Hypertrophy,169,No,1.6,Downsloping,2,Fixed Defect,Yes,No,Low,29.9,No,No,Good,Other,West,1
+971,36,Female,Non-anginal Pain,142,169,No,LV Hypertrophy,170,No,0.8,Downsloping,3,Normal,No,Yes,Low,29.8,Yes,Yes,Fair,Black,North,0
+972,68,Female,Typical Angina,140,154,No,Normal,128,Yes,3.2,Upsloping,3,Normal,No,Yes,Moderate,26.5,No,No,Good,Black,North,0
+973,77,Male,Non-anginal Pain,145,184,No,LV Hypertrophy,99,No,3.6,Upsloping,1,Fixed Defect,Yes,Yes,Moderate,22.4,No,No,Good,White,North,0
+974,72,Male,Asymptomatic,195,196,Yes,Normal,130,No,2.2,Upsloping,3,Normal,No,No,Low,23.7,No,No,Very Good,Black,East,0
+975,47,Male,Asymptomatic,181,217,No,ST-T Abnormality,165,Yes,2.9,Flat,2,Normal,No,Yes,Low,19.7,No,No,Very Good,Other,West,0
+976,70,Male,Atypical Angina,147,390,Yes,ST-T Abnormality,112,No,2.3,Flat,2,Reversible Defect,No,No,Low,24.7,Yes,No,Poor,Black,West,0
+977,69,Male,Typical Angina,153,508,No,LV Hypertrophy,113,No,4.0,Downsloping,3,Normal,No,No,Moderate,18.9,No,No,Fair,White,West,0
+978,65,Male,Typical Angina,150,345,No,ST-T Abnormality,144,No,5.6,Flat,2,Normal,No,No,Low,26.9,Yes,No,Poor,Asian,East,1
+979,34,Male,Asymptomatic,140,515,No,LV Hypertrophy,134,Yes,1.0,Flat,3,Normal,No,No,Low,27.2,No,No,Very Good,Black,North,0
+980,54,Male,Non-anginal Pain,124,538,No,LV Hypertrophy,72,No,2.4,Flat,2,Normal,No,Yes,Low,30.0,No,No,Good,Other,East,1
+981,62,Male,Atypical Angina,198,526,Yes,ST-T Abnormality,136,No,0.9,Flat,1,Normal,No,No,Moderate,21.1,No,No,Very Good,Other,West,0
+982,73,Male,Non-anginal Pain,139,525,No,ST-T Abnormality,101,Yes,3.9,Downsloping,0,Fixed Defect,Yes,No,Moderate,21.4,No,No,Excellent,White,East,1
+983,34,Male,Non-anginal Pain,119,340,No,LV Hypertrophy,185,Yes,4.5,Upsloping,1,Normal,No,No,Moderate,32.1,No,No,Good,White,South,1
+984,65,Female,Non-anginal Pain,98,512,No,ST-T Abnormality,96,No,5.8,Downsloping,1,Normal,No,Yes,Moderate,20.5,No,No,Poor,Hispanic,North,0
+985,61,Male,Typical Angina,177,402,No,Normal,99,Yes,1.7,Flat,0,Fixed Defect,No,No,Moderate,34.2,No,No,Good,Hispanic,North,0
+986,50,Female,Asymptomatic,145,189,Yes,ST-T Abnormality,148,No,5.9,Upsloping,2,Fixed Defect,No,No,High,22.3,Yes,No,Excellent,Hispanic,West,0
+987,49,Female,Typical Angina,198,471,Yes,ST-T Abnormality,95,No,0.4,Upsloping,0,Normal,No,No,Low,22.3,No,No,Very Good,Asian,East,0
+988,34,Male,Asymptomatic,168,417,Yes,Normal,118,No,3.7,Upsloping,3,Normal,No,No,Moderate,29.4,No,No,Fair,Other,West,0
+989,34,Female,Atypical Angina,147,370,No,ST-T Abnormality,135,Yes,0.4,Downsloping,0,Normal,No,No,Moderate,28.2,No,No,Fair,Hispanic,East,0
+990,76,Male,Atypical Angina,126,187,No,ST-T Abnormality,137,No,5.5,Upsloping,1,Reversible Defect,Yes,No,Low,32.6,No,No,Fair,Other,South,1
+991,32,Male,Non-anginal Pain,143,551,No,LV Hypertrophy,160,No,3.3,Downsloping,0,Reversible Defect,No,No,Moderate,18.4,Yes,No,Very Good,White,North,1
+992,58,Male,Asymptomatic,131,457,No,ST-T Abnormality,108,No,4.1,Downsloping,2,Normal,Yes,Yes,Low,28.1,No,No,Fair,Asian,North,1
+993,39,Male,Asymptomatic,120,295,No,ST-T Abnormality,157,No,5.2,Flat,1,Fixed Defect,Yes,No,Low,25.8,No,No,Excellent,White,East,1
+994,58,Male,Asymptomatic,191,394,No,Normal,135,No,0.9,Flat,3,Normal,No,No,Low,21.7,Yes,No,Very Good,Other,North,1
+995,59,Male,Non-anginal Pain,108,392,No,LV Hypertrophy,97,No,0.2,Upsloping,2,Fixed Defect,No,No,Low,33.5,No,No,Fair,Hispanic,East,1
+996,52,Male,Non-anginal Pain,189,179,No,LV Hypertrophy,176,No,5.4,Upsloping,1,Fixed Defect,No,No,Moderate,26.9,No,No,Poor,White,West,0
+997,37,Male,Atypical Angina,154,141,No,LV Hypertrophy,193,No,2.0,Flat,3,Fixed Defect,No,No,Moderate,25.7,No,No,Very Good,Black,South,0
+998,31,Male,Typical Angina,114,133,No,ST-T Abnormality,114,No,0.8,Downsloping,2,Normal,No,No,Moderate,27.8,No,No,Very Good,Asian,East,0
+999,59,Female,Asymptomatic,139,229,Yes,LV Hypertrophy,170,No,2.9,Downsloping,3,Normal,No,No,Moderate,19.1,Yes,No,Good,Other,South,0
+1000,68,Male,Asymptomatic,162,184,No,Normal,98,Yes,3.7,Flat,0,Fixed Defect,No,No,Low,21.0,No,No,Fair,Hispanic,West,1
